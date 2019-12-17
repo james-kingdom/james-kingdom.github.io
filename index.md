@@ -1,37 +1,70 @@
-## Welcome to GitHub Pages
+Apache Spark============================================
 
-You can use the [editor on GitHub](https://github.com/james-kingdom/james-kingdom.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+##pyspark설치
+java_home classpath설치
+conda install pyspark 
+pyspark 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+#분석라이브러리들
+import time
+import matplotlib.pyplot as plt
+import numpy as np 
+import pandas as pd
+from pyspark import SparkContext
 
-### Markdown
+* 참고 블로그 
+https://frhyme.github.io/python-lib/pyspark/ 설치 튜토리얼
+https://wikidocs.net/16565           개념정리
+https://jaeyung1001.tistory.com/59   함수정리
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+용어집============================================
+Amazon EMR - Elastic MapReduce
+AWS S3 - simple storage service 
+pyspark - spark API 
+스파크 RDD(Resilient Distributed Datase), 코어, SQL, Mlib, GraphX
 
-```markdown
-Syntax highlighted code block
+Python===========================================
+* 사용자입력
+number = input("숫자를 입력하세요: ")
 
-# Header 1
-## Header 2
-### Header 3
+# 자료형
+* 리스트 
+리스트명 = [요소1, 요소2, 요소3, ...]
 
-- Bulleted
-- List
+* 튜플 
+튜플명 = (요소1, 요소2, 요소3, ...)
+리스트는 그 값의 생성, 삭제, 수정이 가능하지만 튜플은 그 값을 바꿀 수 없다
+괄호( )를 생략해도 무방
 
-1. Numbered
-2. List
+* 딕셔너리
+dic = {Key1:Value1, Key2:Value2, Key3:Value3, ...}
+딕셔너리에서 Key는 고유한 값이므로 중복되는 Key 값을 설정해 놓으면 하나를 제외한 나머지 것들이 모두 무시
 
-**Bold** and _Italic_ and `Code` text
+*집합자료형
+집합명 = set([1,2,3,4])
+중복을 허용하지 않는다.순서가 없다(Unordered).
 
-[Link](url) and ![Image](src)
-```
+* 함수
+def 함수명(인자):
+    내용
+    return result
+* 클래스
+class 클래스명:
+    def __init__(self, first, second): # 생성자, self:생성되는 객체
+    #def setdata(self, first, second):
+        self.first = first
+        self.second = second
+    def 함수명(인자):
+        내용
+        return result
+    
+* 참고 블로그
+https://wikidocs.net/4307 점프투 파이썬
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+Pandas===========================================
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/james-kingdom/james-kingdom.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+import pandas as pd
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+csv_data = pd.read_csv('c:/dataset_file.csv',delimiter='\t')
+csv_data
