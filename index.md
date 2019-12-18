@@ -1,12 +1,12 @@
 # [editor on GitHub](https://github.com/james-kingdom/james-kingdom.github.io/edit/master/index.md)
-# Apache Spark============================================
+# Apache Spark=====
 
-# pyspark설치
+* pyspark설치
 *  java_home classpath설치
 *  conda install pyspark 
 *  pyspark 
 
-#분석라이브러리들
+* 분석라이브러리들
 *  import time
 *  import matplotlib.pyplot as plt
 *  import numpy as np 
@@ -18,17 +18,17 @@
 *  https://wikidocs.net/16565           개념정리
 *  https://jaeyung1001.tistory.com/59   함수정리
 
-# 용어집============================================
+* 용어집==================
 *  Amazon EMR - Elastic MapReduce
 *  AWS S3 - simple storage service 
 *  pyspark - spark API 
 *  스파크 RDD(Resilient Distributed Datase), 코어, SQL, Mlib, GraphX
 
-Python===========================================
+# Python==========
 * 사용자입력
 * number = input("숫자를 입력하세요: ")
 
-# 자료형
+* 자료형
 * 리스트 
 *  리스트명 = [요소1, 요소2, 요소3, ...]
 
@@ -41,7 +41,7 @@ Python===========================================
 *  dic = {Key1:Value1, Key2:Value2, Key3:Value3, ...}
 *  딕셔너리에서 Key는 고유한 값이므로 중복되는 Key 값을 설정해 놓으면 하나를 제외한 나머지 것들이 모두 무시
 
-*집합자료형
+* 집합자료형
 *  집합명 = set([1,2,3,4])
 *  중복을 허용하지 않는다.순서가 없다(Unordered).
 
@@ -63,7 +63,7 @@ Python===========================================
 *  https://wikidocs.net/4307 점프투 파이썬
 
 
-# Pandas===========================================
+# Pandas=========
 
 *  import pandas as pd
   
