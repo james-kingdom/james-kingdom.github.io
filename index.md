@@ -1,4 +1,15 @@
 # [editor on GitHub](https://github.com/james-kingdom/james-kingdom.github.io/edit/master/index.md)
+
+# Data Modeling=====
+* ERD (Entity Relation-ship Diagram) 개념->논리->물리->구현->운영DB
+* 데이터 모델링 - 업무 프로세스를 추상화 하여 데이터베이스의 데이터로 표현하는 설계
+* 아키텍처관점 1) 요구사항분석 2) 개념모델링 3) 논리모델링 
+* 구체화 관점 4) 물리 모델링 5) 데이터베이스
+* 데이터관점 - Entity Type, 프로세스관점 - SQL, 데이터프로세스 - Relation-ship, 상관관점 - CRUD
+
+* 참고 블로그 
+* http://blog.skby.net/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%AA%A8%EB%8D%B8%EB%A7%81-data-modeling/
+
 # Apache Spark=====
 
 * pyspark설치
