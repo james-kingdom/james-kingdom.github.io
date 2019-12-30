@@ -1,5 +1,28 @@
 # [editor on GitHub](https://github.com/james-kingdom/james-kingdom.github.io/edit/master/index.md)
 
+# 용어집==================
+*  Amazon EMR - 분석도구
+*  EMR Cluster - Scale up가능 node로 이루어짐, Master node, Core node, Task node - S3를 사용하는 컴퓨팅 노드, spot node 
+*  Hadoop : EMR- Elastic MapReduce
+*  AWS S3 - simple storage service 
+*  pyspark - spark API 
+*  스파크 RDD(Resilient Distributed Datase), 코어, SQL, Mlib, GraphX
+*  Glue for ETL - Spark&Hive interface in web browser : 서버 없이 ETL도구
+*  ElasticSearch - 분석도구
+*  Kibana - 데쉬보드
+*  Amazon Kinesis -실시간 분석도구
+*  Amazon Redshift : Data warehouse 
+*  Managed service 
+
+*  관련영상 
+*  https://www.youtube.com/watch?v=RMPvnfn9-G4
+
+# Map Reduce
+* 개념 - 정보 검색을 위한 데이터 가공(색인어 추출, 정렬 및 역 인덱스 생성)을 목적으로 개발된 분산 환경에서의 병렬 데이터 처리 기법이자 프로그래밍 모델이다
+
+* 참고블로그
+* https://m.blog.naver.com/PostView.nhn?blogId=jevida&logNo=140199795866&proxyReferer=https%3A%2F%2Fwww.google.com%2F
+
 # Data Modeling=====
 * ERD (Entity Relation-ship Diagram) 개념->논리->물리->구현->운영DB
 * 데이터 모델링 - 업무 프로세스를 추상화 하여 데이터베이스의 데이터로 표현하는 설계
@@ -28,12 +51,6 @@
 *  https://frhyme.github.io/python-lib/pyspark/ 설치 튜토리얼
 *  https://wikidocs.net/16565           개념정리
 *  https://jaeyung1001.tistory.com/59   함수정리
-
-* 용어집==================
-*  Amazon EMR - Elastic MapReduce
-*  AWS S3 - simple storage service 
-*  pyspark - spark API 
-*  스파크 RDD(Resilient Distributed Datase), 코어, SQL, Mlib, GraphX
 
 # Python==========
 * 사용자입력
