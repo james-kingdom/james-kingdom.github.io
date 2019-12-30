@@ -1,6 +1,7 @@
 # [editor on GitHub](https://github.com/james-kingdom/james-kingdom.github.io/edit/master/index.md)
 
 # 용어집==================
+*  하둡 - 빅데이터 처리 프레임워크
 *  Amazon EMR - 분석도구
 *  EMR Cluster - Scale up가능 node로 이루어짐, Master node, Core node, Task node - S3를 사용하는 컴퓨팅 노드, spot node 
 *  Hadoop : EMR- Elastic MapReduce
@@ -13,6 +14,11 @@
 *  Amazon Kinesis -실시간 분석도구
 *  Amazon Redshift : Data warehouse 
 *  Managed service 
+*  빅데이터 수집 S/W - Flume, Sqoop:RDBS와 HDFS로 Bulk 가져오는, R, Python 
+*  빅데이터 저장 S/W - HDFS, HBASE : 컬럼기반 NoSQL
+*  빅데이터 처리 S/W - 맵리듀스:병렬처리, 피그, 하이브, 스파크:인메모리방식, 우지 R, 파이썬 : 판다스, 넘파이, 싸이파이,,,
+*  빅데이터 분석 S/W - 스파크, R, 파이썬
+*  빅데이터 시각화 S/W - 엑셀, 스프레드시트, 차트, 퓨전테이블, 타블로우, 클릭뷰, R: ggplot
 
 *  관련영상 
 *  https://www.youtube.com/watch?v=RMPvnfn9-G4
