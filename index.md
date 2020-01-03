@@ -1,14 +1,14 @@
 # [editor on GitHub](https://github.com/james-kingdom/james-kingdom.github.io/edit/master/index.md)
 
-# Palantir Gotham==================
+# Palantir Gotham Titan==================
 * 참조사이트 - https://translate.google.com/translate?hl=ko&sl=en&u=https://www.palantir.com/about/&prev=search
 *  Conjure - HTTP / JSON API 용 오픈 소스 툴체인 
    (YAML로 작성된 선언적 API 정의에서 다양한 언어로 클라이언트 및 서버 바인딩을 생성)
 * YAML - Yaml An't Markup Language
 * 개체탐색기는 Horizon으로 구동됨
-* Horizon -  Palantir Gotham's Horizon in-memory database (Apache Spark과 유사)
-* Ava - Palantir Gotham 생태계에 적용된 인공 지능 기능 모음
-* Dossier -사용자는 협업하여 분석을 공유하고 보고서를 작성하며 실시간으로 지능을 발견 할 수 있습니다.
+* Palantir Horizon -  Palantir Gotham's Horizon in-memory database (Apache Spark과 유사)
+* Palantir Ava - Palantir Gotham 생태계에 적용된 인공 지능 기능 모음
+* Palantir Dossier - Intelligence Products 사용자는 협업하여 분석을 공유하고 보고서를 작성하며 실시간으로 지능을 발견 할 수 있습니다.
 * Palantir Gaia - Map 응용 프로그램은 실시간으로 공유되는 실시간Map를 제공하여 모든 사람이 동일한 정보에 대해 행동 할 수 있도록 실시간으로 지상에서 일어나는 상황을 추적합니다
 * Nexus Peering 모듈 - 전 세계의 데이터를 동기화하여 원격 지역의 성능을 향상 시키면서도 안전한 협업과 일관된 데이터 액세스를 계속할 수 있습니다
 
