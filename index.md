@@ -38,10 +38,10 @@
 *  거시경제 : 경기상황, 노동시장, 물가 등 국가경제의 움직임을 좌우하는 요소가 연구대상인 분야
 
 *  PCA -> PPCA -> GPLVM -> GPDM 
-*  PCA : Linearity를 가정한 차원축소
+*  PCA(Principal Component Analysis) : Linearity를 가정한 차원축소
 *  PPCA : X의 mapping을 bayesian 입장에서 구한 것
-*  GPLVM : 이 mapping이 nonlinear일 때로 일반화한 것
-*  GPDM : GPLVM의 time-series data 확장버전
+*  GPLVM(Gaussian Process Latent Variable Models) : mapping이 nonlinear일 때로 일반화한 것
+*  GPDM(Gaussian Process Dynamical models) : GPLVM의 time-series data 확장버전
 *  관련 블로그 - https://ihwoo.tistory.com/84 출처 - http://valley.egloos.com/viewer/?url=http://hackos.egloos.com/157662
 
 *  관련영상 
