@@ -13,6 +13,8 @@
 * Nexus Peering 모듈 - 전 세계의 데이터를 동기화하여 원격 지역의 성능을 향상 시키면서도 안전한 협업과 일관된 데이터 액세스를 계속할 수 있습니다
 
 # 용어집==================
+*  MES (Manufacturing Execution System) - 생산관리시스템
+*  참조 블로그 - https://m.blog.naver.com/computermate/220475304706
 *  하둡 - 빅데이터 처리 프레임워크
 *  Amazon EMR - 분석도구
 *  EMR Cluster - Scale up가능 node로 이루어짐, Master node, Core node, Task node - S3를 사용하는 컴퓨팅 노드, spot node 
@@ -31,6 +33,16 @@
 *  빅데이터 처리 S/W - 맵리듀스:병렬처리, 피그, 하이브, 스파크:인메모리방식, 우지 R, 파이썬 : 판다스, 넘파이, 싸이파이,,,
 *  빅데이터 분석 S/W - 스파크, R, 파이썬
 *  빅데이터 시각화 S/W - 엑셀, 스프레드시트, 차트, 퓨전테이블, 타블로우, 클릭뷰, R: ggplot
+
+*  미시경제 : 개인이나 기업 등의 경제활동에 직접 영향을 미치는 것으로 구매와 관련한 개별상품가격, 취업관련 임금수준 등의 움직임에 대한 분야
+*  거시경제 : 경기상황, 노동시장, 물가 등 국가경제의 움직임을 좌우하는 요소가 연구대상인 분야
+
+*  PCA -> PPCA -> GPLVM -> GPDM 
+*  PCA : Linearity를 가정한 차원축소
+*  PPCA : X의 mapping을 bayesian 입장에서 구한 것
+*  GPLVM : 이 mapping이 nonlinear일 때로 일반화한 것
+*  GPDM : GPLVM의 time-series data 확장버전
+*  관련 블로그 - https://ihwoo.tistory.com/84 출처 - http://valley.egloos.com/viewer/?url=http://hackos.egloos.com/157662
 
 *  관련영상 
 *  https://www.youtube.com/watch?v=RMPvnfn9-G4
