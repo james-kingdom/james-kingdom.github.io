@@ -47,28 +47,23 @@
 *  관련영상 
 *  https://www.youtube.com/watch?v=RMPvnfn9-G4
 
-*  ECMAScript 6(ES6) - 참조블로그 https://jsdev.kr/t/es6/2944 
-*  arrows
-*  classes
-*  enhanced object literals
-*  template strings
-*  destructuring
-*  default + rest + spread
-*  let + const
-*  iterators + for…of
-*  generators
-*  unicode
-*  modules
-*  module loaders
-*  map + set + weakmap + weakset
-*  proxies
-*  symbols
-*  subclassable built-ins
-*  promises
-*  math + number + string + array + object APIs
-*  binary and octal literals
-*  reflect api
-*  tail calls
+*  ECMAScript 6(ES6) - 
+*  참조블로그 https://jsdev.kr/t/es6/2944 
+*  http://woowabros.github.io/experience/2017/12/01/es6-experience.html
+*  https://velog.io/@godori/ES6-%EC%A0%95%EB%A6%AC-vpjmrh6hhe
+*  https://sanghaklee.tistory.com/54
+*  https://blog.asamaru.net/2017/08/14/top-10-es6-features/
+*  기본 매개 변수 (Default Parameters)
+*  템플릿 리터럴 (Template Literals)
+*  멀티 라인 문자열 (Multi-line Strings)
+*  비구조화 할당 (Destructuring Assignment)
+*  향상된 객체 리터럴 (Enhanced Object Literals)
+*  화살표 함수 (Arrow Functions)
+*  Promises
+*  블록 범위 생성자 Let 및 Const (Block-Scoped Constructs Let and Const)
+*  클래스 (Classes)
+*  모듈 (Modules)
+
 
 # Map Reduce
 * 개념 - 정보 검색을 위한 데이터 가공(색인어 추출, 정렬 및 역 인덱스 생성)을 목적으로 개발된 분산 환경에서의 병렬 데이터 처리 기법이자 프로그래밍 모델이다
