@@ -47,6 +47,29 @@
 *  관련영상 
 *  https://www.youtube.com/watch?v=RMPvnfn9-G4
 
+*  ECMAScript 6(ES6) - 참조블로그 https://jsdev.kr/t/es6/2944 
+*  arrows
+*  classes
+*  enhanced object literals
+*  template strings
+*  destructuring
+*  default + rest + spread
+*  let + const
+*  iterators + for…of
+*  generators
+*  unicode
+*  modules
+*  module loaders
+*  map + set + weakmap + weakset
+*  proxies
+*  symbols
+*  subclassable built-ins
+*  promises
+*  math + number + string + array + object APIs
+*  binary and octal literals
+*  reflect api
+*  tail calls
+
 # Map Reduce
 * 개념 - 정보 검색을 위한 데이터 가공(색인어 추출, 정렬 및 역 인덱스 생성)을 목적으로 개발된 분산 환경에서의 병렬 데이터 처리 기법이자 프로그래밍 모델이다
 
