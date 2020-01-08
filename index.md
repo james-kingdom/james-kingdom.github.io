@@ -1,7 +1,9 @@
 # [editor on GitHub](https://github.com/james-kingdom/james-kingdom.github.io/edit/master/index.md)
 
+* 개인학습용도이고, 출처를 최대한 표기했으나 문제가 있다면 kingdomokay@gmail.com 연락 주세요. 
+
 # Palantir Gotham Titan==================
-* 참조사이트 - https://translate.google.com/translate?hl=ko&sl=en&u=https://www.palantir.com/about/&prev=search
+* 출처 - https://translate.google.com/translate?hl=ko&sl=en&u=https://www.palantir.com/about/&prev=search
 *  Conjure - HTTP / JSON API 용 오픈 소스 툴체인 
    (YAML로 작성된 선언적 API 정의에서 다양한 언어로 클라이언트 및 서버 바인딩을 생성)
 * YAML - Yaml An't Markup Language
@@ -14,7 +16,7 @@
 
 # 용어집==================
 *  MES (Manufacturing Execution System) - 생산관리시스템
-*  참조 블로그 - https://m.blog.naver.com/computermate/220475304706
+*  출처 블로그 - https://m.blog.naver.com/computermate/220475304706
 *  하둡 - 빅데이터 처리 프레임워크
 *  Amazon EMR - 분석도구
 *  EMR Cluster - Scale up가능 node로 이루어짐, Master node, Core node, Task node - S3를 사용하는 컴퓨팅 노드, spot node 
@@ -42,13 +44,13 @@
 *  PPCA : X의 mapping을 bayesian 입장에서 구한 것
 *  GPLVM(Gaussian Process Latent Variable Models) : mapping이 nonlinear일 때로 일반화한 것
 *  GPDM(Gaussian Process Dynamical models) : GPLVM의 time-series data 확장버전
-*  관련 블로그 - https://ihwoo.tistory.com/84 출처 - http://valley.egloos.com/viewer/?url=http://hackos.egloos.com/157662
+*  출처 블로그 - https://ihwoo.tistory.com/84 출처 - http://valley.egloos.com/viewer/?url=http://hackos.egloos.com/157662
 
 *  관련영상 
 *  https://www.youtube.com/watch?v=RMPvnfn9-G4
 
 *  ECMAScript 6(ES6) - 
-*  참조블로그 https://jsdev.kr/t/es6/2944 
+*  출처 https://jsdev.kr/t/es6/2944 
 *  http://woowabros.github.io/experience/2017/12/01/es6-experience.html
 *  https://velog.io/@godori/ES6-%EC%A0%95%EB%A6%AC-vpjmrh6hhe
 *  https://sanghaklee.tistory.com/54
@@ -95,12 +97,15 @@
 *  import pandas as pd
 *  from pyspark import SparkContext
 
-* 참고 블로그 
+* 출처 블로그 
 *  https://frhyme.github.io/python-lib/pyspark/ 설치 튜토리얼
 *  https://wikidocs.net/16565           개념정리
 *  https://jaeyung1001.tistory.com/59   함수정리
 
 # Python==========
+* Django 파이썬 웹사이트만들기
+* 참조블로그 -https://opentutorials.org/course/3268
+
 * 사용자입력
 * number = input("숫자를 입력하세요: ")
 
@@ -145,3 +150,22 @@
   
 *  csv_data = pd.read_csv('c:/dataset_file.csv',delimiter='\t')
 *  csv_data
+
+# Node.js=================
+* 환경설치
+* NPM - Node Package Manger (설치 https://nodejs.org/ko/download/)
+* Nodejs설치시 NPM함께 설치됨
+* 출처 - https://www.a-mean-blog.com/ko/blog/MEAN-Stack/%EA%B0%9C%EB%B0%9C-%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%B6%95
+* npm init ->package.json 파일 생성
+* npm install -> dependency package 설치
+* npm install --save body-parser  -> 웹브라우저의 form으로 전송된 data를 서버에서 쉽게 사용하기 위해
+* npm install express --save -> node.js로 서버를 만드는 express프레임웍사용
+* EJS  Embedded JavaScript - Express에서 dynamic website를 만들기 위해 template으로 사용되는 파일
+* npm install --save ejs
+* 텍스트에디터 Atom, VScode .. 
+* Postman - REST API테스트 프로그램
+* Node JS API 개발 - Node JS, Express프레임웍 활용 REST API
+* HTTP Methods(HTTP Verbs) - GET, POST, PUT, PATCH, DELETE
+
+
+
