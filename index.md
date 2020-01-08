@@ -24,15 +24,17 @@
 * 클래스 (Classes)
 * 모듈 (Modules)
 
-#  TypeScript - 자바스크립트 대체 언어의 하나로써 자바스크립트(ES5)의 Superset(상위확장)
-#  CSS Paint API - 크롬 65에 추가
-* 프로그래밍 방식으로 이미지를 생성할 수 있기 때문에, 이미지를 참조하는 대신 paint 함수를 사용하여 <canvas> 요소와 유사하게 이미지를 그릴 수 있다
+#  TypeScript 
+* 자바스크립트 대체 언어의 하나로써 자바스크립트(ES5)의 Superset(상위확장)
+#  CSS Paint API 
+* 크롬 65에 추가됨, 프로그래밍 방식으로 이미지를 생성할 수 있기 때문에, 이미지를 참조하는 대신 paint 함수를 사용하여 <canvas> 요소와 유사하게 이미지를 그릴 수 있다
 * paintWorklet - background에 속성 값으로 paint 함수를 사용하여 처리할 수 있다
 * 출처 - https://wit.nts-corp.com/2018/05/02/5214
+#  AtlasDB - 트랜잭션 분산 데이터베이스 MVCC (Multi-version Concurrency Control)구현, 다버전 병렬제어
+* 출처 https://translate.google.com/translate?hl=ko&sl=en&u=https://conferences.oreilly.com/strata/stratany2013/public/schedule/detail/30923&prev=search
 
 
-
-=================================================
+# =============================
 
 *  MES (Manufacturing Execution System) - 생산관리시스템
 *  출처 블로그 - https://m.blog.naver.com/computermate/220475304706
