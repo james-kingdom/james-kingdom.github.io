@@ -7,6 +7,16 @@
 *  MES (Manufacturing Execution System) - 생산관리시스템
 *  출처 블로그 - https://m.blog.naver.com/computermate/220475304706
 *  하둡 - 빅데이터 처리 프레임워크
+
+* kubernetes 
+*  서비스 디스커버리와 로드 밸런싱
+*  스토리지 오케스트레이션
+*  자동화된 롤아웃과 롤백
+*  자동화된 빈 패킹(bin packing) 
+*  자동화된 복구(self-healing) 
+*  시크릿과 구성 관리
+*  출처 - https://kubernetes.io/ko/docs/concepts/overview/what-is-kubernetes/
+
 *  Amazon EMR - 분석도구
 *  EMR Cluster - Scale up가능 node로 이루어짐, Master node, Core node, Task node - S3를 사용하는 컴퓨팅 노드, spot node 
 *  Hadoop : EMR- Elastic MapReduce
