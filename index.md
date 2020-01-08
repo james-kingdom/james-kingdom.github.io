@@ -33,6 +33,9 @@
 #  AtlasDB - 트랜잭션 분산 데이터베이스 MVCC (Multi-version Concurrency Control)구현, 다버전 병렬제어
 * 출처 https://translate.google.com/translate?hl=ko&sl=en&u=https://conferences.oreilly.com/strata/stratany2013/public/schedule/detail/30923&prev=search
 
+# Go Programming Language 
+* Go는 2009년 구글이 개발한[2] 프로그래밍 언어이다. 가비지 컬렉션 기능이 있고, 병행성(concurrent)을 잘 지원하는 컴파일 언어다.
+* 출처 - https://ko.wikipedia.org/wiki/Go_(%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EC%96%B8%EC%96%B4)
 
 # =============================
 
