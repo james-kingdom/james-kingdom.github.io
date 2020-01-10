@@ -2,6 +2,38 @@
 
 * 개인학습용도이고, 출처를 최대한 표기했으나 문제가 있다면 kingdomokay@gmail.com 연락 주세요. 
 
+# Apache Spark=====
+* pyspark설치
+*  java_home classpath설치
+*  conda install pyspark 
+*  pyspark 
+
+* 분석라이브러리들
+*  import time
+*  import matplotlib.pyplot as plt
+*  import numpy as np 
+*  import pandas as pd
+
+*  from pyspark import SparkContext
+*  SparkContext - 스파크 클러스터에 접근하는 지점 SC변수
+*  출처 -https://statkclee.github.io/bigdata/bigdata-pyspark-data-structure.html
+
+*  from pyspark.sql import SparkSession
+*  SparkSession - 파크 세션을 생성, spark.read.csv() 데이터 로드
+
+*  sc.parallelize - 파이썬 리스트를 스파크 클러스터로 로드, RDD로 변환
+*  sc.textFile    - 외부 텍스트 데이터를 스파크 클러스터로 로드, RDD로 변환
+*  from pyspark.sql.types import *
+*  spark.sql 정형데이터, StructType()으로 스키마 지정으로 속도향상, 
+*  spark.read.csv('xxx.csv', header=True, schema=스키마StructType(), nullValue='NA')
+
+*  Spark 데이터 추출 및 전처리, 출처 - https://wikidocs.net/16565
+
+* 출처 블로그 
+*  https://frhyme.github.io/python-lib/pyspark/ 설치 튜토리얼
+*  https://wikidocs.net/16565           개념정리
+*  https://jaeyung1001.tistory.com/59   함수정리
+
 #  ECMAScript 6(ES6) - 
 * 출처 https://jsdev.kr/t/es6/2944 
 * http://woowabros.github.io/experience/2017/12/01/es6-experience.html
@@ -105,36 +137,6 @@
 * 참고 블로그 
 * http://blog.skby.net/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%AA%A8%EB%8D%B8%EB%A7%81-data-modeling/
 
-# Apache Spark=====
-
-* pyspark설치
-*  java_home classpath설치
-*  conda install pyspark 
-*  pyspark 
-
-* 분석라이브러리들
-*  import time
-*  import matplotlib.pyplot as plt
-*  import numpy as np 
-*  import pandas as pd
-
-*  from pyspark import SparkContext
-*  SparkContext - 스파크 클러스터에 접근하는 지점 SC변수
-*  출처 -https://statkclee.github.io/bigdata/bigdata-pyspark-data-structure.html
-
-*  from pyspark.sql import SparkSession
-*  SparkSession - 파크 세션을 생성, spark.read.csv() 데이터 로드
-
-*  sc.parallelize - 파이썬 리스트를 스파크 클러스터로 로드, RDD로 변환
-*  sc.textFile    - 외부 텍스트 데이터를 스파크 클러스터로 로드, RDD로 변환
-*  from pyspark.sql.types import *
-*  spark.sql 정형데이터, StructType()으로 스키마 지정으로 속도향상, 
-*  spark.read.csv('xxx.csv', header=True, schema=스키마StructType(), nullValue='NA')
-
-* 출처 블로그 
-*  https://frhyme.github.io/python-lib/pyspark/ 설치 튜토리얼
-*  https://wikidocs.net/16565           개념정리
-*  https://jaeyung1001.tistory.com/59   함수정리
 
 # Python==========
 * PEP8 파이썬 코딩스타일 가이드
