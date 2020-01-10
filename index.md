@@ -125,8 +125,9 @@
 *  https://jaeyung1001.tistory.com/59   함수정리
 
 # Python==========
-* Django 파이썬 웹사이트만들기
-* 참조블로그 -https://opentutorials.org/course/3268
+* PEP8 파이썬 코딩스타일 가이드
+* 출처 - https://wayhome25.github.io/python/2017/05/04/pep8/
+*   https://b.luavis.kr/python/python-convention
 
 * 사용자입력
 * number = input("숫자를 입력하세요: ")
