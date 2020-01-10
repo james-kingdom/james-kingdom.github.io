@@ -117,7 +117,19 @@
 *  import matplotlib.pyplot as plt
 *  import numpy as np 
 *  import pandas as pd
+
 *  from pyspark import SparkContext
+*  SparkContext - 스파크 클러스터에 접근하는 지점 SC변수
+*  출처 -https://statkclee.github.io/bigdata/bigdata-pyspark-data-structure.html
+
+*  from pyspark.sql import SparkSession
+*  SparkSession - 파크 세션을 생성, spark.read.csv() 데이터 로드
+
+*  sc.parallelize - 파이썬 리스트를 스파크 클러스터로 로드, RDD로 변환
+*  sc.textFile    - 외부 텍스트 데이터를 스파크 클러스터로 로드, RDD로 변환
+*  from pyspark.sql.types import *
+*  spark.sql 정형데이터, StructType()으로 스키마 지정으로 속도향상, 
+*  spark.read.csv('xxx.csv', header=True, schema=스키마StructType(), nullValue='NA')
 
 * 출처 블로그 
 *  https://frhyme.github.io/python-lib/pyspark/ 설치 튜토리얼
