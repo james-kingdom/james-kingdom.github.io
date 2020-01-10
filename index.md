@@ -83,6 +83,12 @@
 * 출처: https://unabated.tistory.com/entry/DW-DM-OLAP의-이해 [랄라라]
 * https://unabated.tistory.com/entry/DW-DM-OLAP%EC%9D%98-%EC%9D%B4%ED%95%B4
 
+* kaggle - 전세계 데이터 과학자들이 자신이 만든 코드를 공유하고 경쟁하는 데이터 분석 플랫폼
+* Kaggle Kernels - 데이터 과학 및 기계 학습을위한 클라우드 기반 워크 벤치
+* 출처- https://blog.naver.com/pmw9440/221377363924, https://en.wikipedia.org/wiki/Kaggle
+
+
+
 # Map Reduce
 * 개념 - 정보 검색을 위한 데이터 가공(색인어 추출, 정렬 및 역 인덱스 생성)을 목적으로 개발된 분산 환경에서의 병렬 데이터 처리 기법이자 프로그래밍 모델이다
 
@@ -195,8 +201,5 @@
 * 인공지능 - 머신러닝, 딥러닝 알고리즘 이해
 * 데이터마이닝 & 텍스트 analytic - 텍스트/자연어 처리 관련된 알고리즘
 * 툴 활용도, R - 분석할때, 파이썬 - 인공지능 개발 구현
-
-
-
 
 
