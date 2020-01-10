@@ -2,11 +2,6 @@
 
 * 개인학습용도이고, 출처를 최대한 표기했으나 문제가 있다면 kingdomokay@gmail.com 연락 주세요. 
 
-
-# 용어집==================
-
-
-
 #  ECMAScript 6(ES6) - 
 * 출처 https://jsdev.kr/t/es6/2944 
 * http://woowabros.github.io/experience/2017/12/01/es6-experience.html
@@ -37,7 +32,7 @@
 * Go는 2009년 구글이 개발한[2] 프로그래밍 언어이다. 가비지 컬렉션 기능이 있고, 병행성(concurrent)을 잘 지원하는 컴파일 언어다.
 * 출처 - https://ko.wikipedia.org/wiki/Go_(%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EC%96%B8%EC%96%B4)
 
-# =============================
+# 용어집=============================
 
 *  MES (Manufacturing Execution System) - 생산관리시스템
 *  출처 블로그 - https://m.blog.naver.com/computermate/220475304706
@@ -83,7 +78,10 @@
 *  관련영상 
 *  https://www.youtube.com/watch?v=RMPvnfn9-G4
 
-
+* OLAP(On-Line Analytical Processing)은 데이터웨어하우스 활용 수단의 통칭인 BI(Business Intelligence)의 한 분야
+* ETL - 데이터를 이관하는 과정 Extraction Transformation Load의 3가지 과정을 거치게 됩니다
+* 출처: https://unabated.tistory.com/entry/DW-DM-OLAP의-이해 [랄라라]
+* https://unabated.tistory.com/entry/DW-DM-OLAP%EC%9D%98-%EC%9D%B4%ED%95%B4
 
 # Map Reduce
 * 개념 - 정보 검색을 위한 데이터 가공(색인어 추출, 정렬 및 역 인덱스 생성)을 목적으로 개발된 분산 환경에서의 병렬 데이터 처리 기법이자 프로그래밍 모델이다
