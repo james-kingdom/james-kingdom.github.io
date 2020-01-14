@@ -15,7 +15,7 @@
 
 *  pyspark함수정리 :  출처 - https://jaeyung1001.tistory.com/59?category=767662
 * from pyspark.sql import function as F
-* 1) spark.read.csv   df.printSchema()    df.show()
+* 1) spark.read.csv   df.printSchema()    df.show(), df.filter(컬럼 조건).show(), df.groupBy(컬럼).count().show()
 * 2) agg(*exprs)      df.agg(표현식 -> dataframe
 * 3) alias(alias명)   df.alias(
 * 4) cache()          df.cache() 메모리에 남겨두고 반복 조회 속도 향상
@@ -31,13 +31,16 @@
 * 14) replace
 * 15) select(* / 컬럼), selectExpr(표현식(컬럼),)
 * 16) summary(row명 항목들 지정)
-* 17) withColumn(컬럼명, 컬럼)
+* 17) withColumn(컬럼명, 컬럼) , withColumn(컬럼명, lit(값지정))
 * 18) between(범위1, 범위2) 범위1과 2사이에 존재하는지 true/false
 * 19) contains(문자) 여부
 * 20) F.when(조건, 실행)
 * 21) where (col(컬럼명).isin(리스트)), where (col(컬럼명).isin(리스트)==False)
+* 22) udf함수 function.udf(lambda z: 정렬기준, 리턴값의 데이터 형식 ArrayType(StringType())
+* 23) join            table.alias(별칭1), table.alias(별칭2)   별칭1.join(별칭2, 별칭1.컬럼==별칭2.컬럼)
 * from pyspark.sql import SQLContext
 * dataframe_v = sqlContext.createDataFrame(pd.read_cdv("경로"))
+* from pyspark.sql.types import *  sqlContext.createDataFrame(list, 타입).show() list자료형을 df자료형으로 넣을때
 
 * 분석라이브러리들
 *  import time
