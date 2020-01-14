@@ -82,6 +82,8 @@
 *  Amazon EMR - 분석도구
 *  EMR Cluster - Scale up가능 node로 이루어짐, Master node, Core node, Task node - S3를 사용하는 컴퓨팅 노드, spot node 
 *  Hadoop : EMR- Elastic MapReduce
+*  Apache Hive : Apache Hadoop용 데이터 웨어하우스 시스템. Hive를 사용하면 데이터의 요약, 쿼리 및 분석을 수행(쿼리 언어인 HiveQL로 작성)
+*  MapReduce : 맵리듀스(MapReduce)는 정보 검색을 위한 데이터 가공을 목적으로 개발된 분산 환경에서의 병렬 데이터 처리 기법이자 프로그래밍 모델
 *  AWS S3 - simple storage service 
 *  pyspark - spark API 
 *  스파크 RDD(Resilient Distributed Datase), 코어, SQL, Mlib, GraphX
