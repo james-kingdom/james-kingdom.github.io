@@ -42,6 +42,21 @@
 * dataframe_v = sqlContext.createDataFrame(pd.read_cdv("경로"))
 * from pyspark.sql.types import *  sqlContext.createDataFrame(list, 타입).show() list자료형을 df자료형으로 넣을때
 
+
+* 실습문장
+* ======pandas이용=============
+* from pyspark.sql import SQLContext
+* import pandas as pd 
+* sqlc=SQLContext(sc) 
+* df=pd.read_csv(r'C:\Users\doc_use_log.csv')
+* sdf=sqlc.createDataFrame(df)
+* ====SparkSession이용==========
+* from pyspark.sql.session import SparkSession
+* from pyspark import SparkContext
+* sc = SparkContext()
+* spark = SparkSession(sc)
+* df = spark.read.option("header","true").csv(r'C:\Users\youngjin7.kim\doc_use_log.csv')
+
 * 분석라이브러리들
 *  import time
 *  import matplotlib.pyplot as plt
