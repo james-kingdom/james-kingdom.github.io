@@ -8,6 +8,35 @@
 *  conda install pyspark 
 *  pyspark 
 
+*  from pyspark.sql.types import *
+*  spark.sql 정형데이터, StructType()으로 스키마 지정으로 속도향상, 
+*  spark.read.csv('xxx.csv', header=True, schema=스키마StructType(), nullValue='NA')
+*  Spark 데이터 추출 및 전처리, 출처 - https://wikidocs.net/16565
+
+*  pyspark함수정리 :  출처 - https://jaeyung1001.tistory.com/59?category=767662
+* from pyspark.sql import function as F
+* 1) spark.read.csv   df.printSchema()    df.show()
+* 2) agg(*exprs)      df.agg(표현식 -> dataframe
+* 3) alias(alias명)   df.alias(
+* 4) cache()          df.cache() 메모리에 남겨두고 반복 조회 속도 향상
+* 5) collect()        dataframe 모든 row반환
+* 6) corr(col1, col2, method) correlation 상관관계, 상관계수
+* 7) describe()       df.describe(NA/컬럼).show()
+* 8) drop()           df.drop(테이블/컬럼).collect()
+* 9) dropDuplicates   중복row 제거
+* 10) dropna          null값이 포함된 row를 뺀 새로운 dataframe을 반환
+* 11) dtypes          col별 데이터 타입 반환
+* 12) printSchema()   dtypes과 유사하고 트리형태로 타입반환
+* 13) orderBy, sort()
+* 14) replace
+* 15) select(* / 컬럼), selectExpr(표현식(컬럼),)
+* 16) summary(row명 항목들 지정)
+* 17) withColumn(컬럼명, 컬럼)
+* 18) between(범위1, 범위2) 범위1과 2사이에 존재하는지 true/false
+* 19) contains(문자) 여부
+* 20) F.when(조건, 실행)
+
+
 * 분석라이브러리들
 *  import time
 *  import matplotlib.pyplot as plt
@@ -23,11 +52,7 @@
 
 *  sc.parallelize - 파이썬 리스트를 스파크 클러스터로 로드, RDD로 변환
 *  sc.textFile    - 외부 텍스트 데이터를 스파크 클러스터로 로드, RDD로 변환
-*  from pyspark.sql.types import *
-*  spark.sql 정형데이터, StructType()으로 스키마 지정으로 속도향상, 
-*  spark.read.csv('xxx.csv', header=True, schema=스키마StructType(), nullValue='NA')
 
-*  Spark 데이터 추출 및 전처리, 출처 - https://wikidocs.net/16565
 
 * 출처 블로그 
 *  https://frhyme.github.io/python-lib/pyspark/ 설치 튜토리얼
