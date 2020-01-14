@@ -35,7 +35,9 @@
 * 18) between(범위1, 범위2) 범위1과 2사이에 존재하는지 true/false
 * 19) contains(문자) 여부
 * 20) F.when(조건, 실행)
-
+* 21) where (col(컬럼명).isin(리스트)), where (col(컬럼명).isin(리스트)==False)
+* from pyspark.sql import SQLContext
+* dataframe_v = sqlContext.createDataFrame(pd.read_cdv("경로"))
 
 * 분석라이브러리들
 *  import time
