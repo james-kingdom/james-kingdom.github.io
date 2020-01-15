@@ -44,18 +44,21 @@
 
 
 * 실습문장
-* ======pandas이용=============
+* ======SQLContext, pandas이용=============
 * from pyspark.sql import SQLContext
 * import pandas as pd 
-* sqlc=SQLContext(sc) 
+* sqlContext=SQLContext(sc) 
 * df=pd.read_csv(r'C:\Users\doc_use_log.csv')
-* sdf=sqlc.createDataFrame(df)
-* ====SparkSession이용==========
+* sdf=sqlContext.createDataFrame(df)
+* 출처, 관련예제 - https://spark.apache.org/docs/latest/api/python/pyspark.sql.html#pyspark.sql.SparkSession
+
+* ====SparkSession,SparkContext이용==========
 * from pyspark.sql.session import SparkSession
 * from pyspark import SparkContext
 * sc = SparkContext()
 * spark = SparkSession(sc)
 * df = spark.read.option("header","true").csv(r'C:\Users\youngjin7.kim\doc_use_log.csv')
+
 
 * 분석라이브러리들
 *  import time
