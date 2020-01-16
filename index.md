@@ -99,6 +99,9 @@
 * 클래스 (Classes)
 * 모듈 (Modules)
 
+# vue.js
+* 출처 https://codelabs-vue.web.app/
+
 #  TypeScript 
 * 자바스크립트 대체 언어의 하나로써 자바스크립트(ES5)의 Superset(상위확장)
 #  CSS Paint API 
@@ -136,6 +139,15 @@
 
 *  pyspark - spark API 
 *  1) 스파크 RDD(Resilient Distributed Datase), 코어, SQL, Mlib, GraphX
+
+*  cdn(contents Delivery Network) 
+*  출처 - https://goddaehee.tistory.com/173
+*  캐싱서버를 두고 리소스 로딩속도, 서버부하 감소 등 
+
+*  프록시 서버
+*  출처 - https://goddaehee.tistory.com/171?category=281064
+*  다른 서버나 호스트 리소스 요청에 대한 중개 역할, 중개 혹은 네트워크 라우터, 프록시 서버는 캐싱가능
+*  방화벽 네트워크상 에서 트래픽, 접근 우회 등 수행
 
 *  Hive와 Spark 비교 
 *  1) HiveQL로 분석, 데이터 작업은 용이하나, Mapreduce 변환되어 빠른 처리는 불가능 
@@ -269,6 +281,7 @@
 * Postman - REST API테스트 프로그램
 * Node JS API 개발 - Node JS, Express프레임웍 활용 REST API
 * HTTP Methods(HTTP Verbs) - GET, POST, PUT, PATCH, DELETE
+* 학습영상 https://www.youtube.com/watch?v=pc1jgmuS02M
 
 
 #  커리어 (데이타 애널리스트/엔지니어/사이언티스트)===================
