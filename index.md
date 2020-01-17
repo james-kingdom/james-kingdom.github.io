@@ -115,6 +115,14 @@
 * Go는 2009년 구글이 개발한[2] 프로그래밍 언어이다. 가비지 컬렉션 기능이 있고, 병행성(concurrent)을 잘 지원하는 컴파일 언어다.
 * 출처 - https://ko.wikipedia.org/wiki/Go_(%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EC%96%B8%EC%96%B4)
 
+# Vue.js
+* 설치 npm i @vue/cli -g    npm i @vue/cli-service-global -g      vue --version       
+* 프로젝생성 - vue create 프로젝트명 자동생성 후 npm run serve 실행
+* 관련 학습 영상 https://www.youtube.com/watch?v=PxFPAlHPdSM
+* 학습 블로그 https://cli.vuejs.org/guide/installation.html   
+* https://kr.vuejs.org/v2/guide/index.html    
+* https://kr.vuejs.org/v2/guide/index.html
+
 # 용어집=============================
 
 *  MES (Manufacturing Execution System) - 생산관리시스템
