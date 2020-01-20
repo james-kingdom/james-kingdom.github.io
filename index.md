@@ -99,9 +99,6 @@
 * 클래스 (Classes)
 * 모듈 (Modules)
 
-# vue.js
-* 출처 https://codelabs-vue.web.app/
-
 #  TypeScript 
 * 자바스크립트 대체 언어의 하나로써 자바스크립트(ES5)의 Superset(상위확장)
 #  CSS Paint API 
@@ -120,11 +117,26 @@
 * 프로젝생성 - vue create 프로젝트명 자동생성 후 npm run serve 실행
 * 관련 학습 영상 https://www.youtube.com/watch?v=PxFPAlHPdSM
 * 학습 블로그 https://cli.vuejs.org/guide/installation.html   
-* https://kr.vuejs.org/v2/guide/index.html    
-* https://kr.vuejs.org/v2/guide/index.html
+* https://kr.vuejs.org/v2/guide/index.html   
+* 출처 https://codelabs-vue.web.app/
+
+# Axios 
+* HTTP통신을 위한 javascript라이브러리, 브라우저와 Node.js 사용, get,매개변수/post/Patch/delete Rest API
+* HTTP 클라이언트 라이브러리로써, 비동기 방식으로 HTTP 데이터 요청을 실행
+* 출처 - https://tuhbm.github.io/2019/03/21/axios/
+* https://velog.io/@rohkorea86/%EB%B9%84%EB%8F%99%EA%B8%B0-%EB%B9%84%EB%8F%99%EA%B8%B0%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%EC%B0%A8%EA%B7%BC%EC%B0%A8%EA%B7%BC-%EB%8B%A4%EB%A3%A8%EB%A0%A4%EA%B3%A0-%ED%95%A9%EB%8B%88%EB%8B%A4.
+
+# React
+* npm install -g create-react-app 설치 create-react-app hello-world
+* 출처 - https://beomy.tistory.com/24#createReactApp
+
+# Flask
+* Python으로으로 구동되는 웹서버/프레임워크, Django 와 같은 한종류, 설치 pip install flask
+* 출처, 학습 영상 - https://www.youtube.com/watch?v=u2KnTZa1_WU
+* https://velog.io/@decody/%ED%8C%8C%EC%9D%B4%EC%8D%AC-Flask%EB%A1%9C-%EA%B0%84%EB%8B%A8-%EC%9B%B9%EC%84%9C%EB%B2%84-%EA%B5%AC%EB%8F%99%ED%95%98%EA%B8%B0
+
 
 # 용어집=============================
-
 *  MES (Manufacturing Execution System) - 생산관리시스템
 *  출처 블로그 - https://m.blog.naver.com/computermate/220475304706
 *  하둡 - 빅데이터 처리 프레임워크
@@ -305,3 +317,5 @@
 * 툴 활용도, R - 분석할때, 파이썬 - 인공지능 개발 구현
 
 * 로그수준 비정형 데이터를 가공하여 분석/모델링까지 도출할 수 있는 전체 분석 프로세스 전문가
+
+* 관련 참고 영상 -https://www.youtube.com/watch?v=Buc_EgZO1ho
