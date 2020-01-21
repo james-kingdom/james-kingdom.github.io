@@ -137,8 +137,14 @@
 
 # socket.io
 * 설치 npm install socket.io --save
-* socket - id, rooms  , room - socket.broadcast,,
-* io.on('connetion', function(socket){ socket.emit('메시지ID' 소켓전송,~~ io.emit('broadccast' 전체/긴급공지~~ , socket.on('reply'~~~ ));
+* socket.on('connetion', function(~~ 소켓연결 
+* socket.on('reply'/'event'/'disconnect' ~~~ ));
+* socket.emit('broadccast' 전체/긴급공지~~
+* socket.emit('message', {room: joinedroom, msg:msg, function~~~ 메세지전송
+* socket.emit('join', roomid, ()=> ~~~ 방에조인
+* socket.emit('rooms', function(rooms)~~~ 룸정보
+* socket.emit("message-for-one", socketid, ~~ 귓속말
+* socket.emit('leave', joinedRoom 조인된방에서 나가기
 * 출처 - https://www.npmjs.com/package/socket.io
 
 # 용어집=============================
