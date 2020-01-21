@@ -135,6 +135,11 @@
 * 출처, 학습 영상 - https://www.youtube.com/watch?v=u2KnTZa1_WU
 * https://velog.io/@decody/%ED%8C%8C%EC%9D%B4%EC%8D%AC-Flask%EB%A1%9C-%EA%B0%84%EB%8B%A8-%EC%9B%B9%EC%84%9C%EB%B2%84-%EA%B5%AC%EB%8F%99%ED%95%98%EA%B8%B0
 
+# socket.io
+* 설치 npm install socket.io --save
+* socket - id, rooms  , room - socket.broadcast,,
+* io.on('connetion', function(socket){ socket.emit('메시지ID' 소켓전송,~~ io.emit('broadccast' 전체/긴급공지~~ , socket.on('reply'~~~ ));
+* 출처 - https://www.npmjs.com/package/socket.io
 
 # 용어집=============================
 *  MES (Manufacturing Execution System) - 생산관리시스템
