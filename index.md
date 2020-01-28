@@ -297,6 +297,10 @@
 *  csv_data = pd.read_csv('c:/dataset_file.csv',delimiter='\t')
 *  csv_data
 
+# numpy=================
+* import numpy as np
+* 행렬로 표현 np.arange(16) => 0,1,2,,15    .reshape(2,4) 2행4열   print(배열)
+
 # Node.js=================
 * 환경설치
 * NPM - Node Package Manger (설치 https://nodejs.org/ko/download/)
