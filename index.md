@@ -43,14 +43,12 @@
 * from pyspark.sql.types import *  sqlContext.createDataFrame(list, 타입).show() list자료형을 df자료형으로 넣을때
 
 * Working with databases
-* demoDf = sqlContext.read.format("jdbc").options(
-*   usrl="jdbc:mysql://localhost:3306/demo",
-*   driver = "com.mysql.jdbc.Driver",
-*   dbtable = "demotable",
-*   user = "root",
-*   password="").load()   
-* demoDf.show()
-* 출처, 관련영상 : https://www.youtube.com/watch?v=GjNXK1SGDLw
+* import jpype   import jaydebeapi as jp    
+* jpype.startJVM(jpype.getDefaultJVMPath(), '-Djava.class.path=C:\python-dev/ojdbc6.jar')
+* conn = jp.connect('oracle.jdbc.OracleDriver','jdbc:oracle:thin:ID/pW@IP/SID') 
+* cur = conn.cursor()      cur.execute("select * from    
+* acc = cur.fetchall()   cur.close()   conn.close()  jpype.shutdownJVM()   print(acc)
+* 출처, https://bongury.tistory.com/89
 
 * 실습문장
 * ======SQLContext, pandas이용=============
