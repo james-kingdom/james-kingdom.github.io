@@ -42,6 +42,15 @@
 * dataframe_v = sqlContext.createDataFrame(pd.read_cdv("경로"))
 * from pyspark.sql.types import *  sqlContext.createDataFrame(list, 타입).show() list자료형을 df자료형으로 넣을때
 
+* Working with databases
+* demoDf = sqlContext.read.format("jdbc").options(
+*   usrl="jdbc:mysql://localhost:3306/demo",
+*   driver = "com.mysql.jdbc.Driver",
+*   dbtable = "demotable",
+*   user = "root",
+*   password="").load()   
+* demoDf.show()
+* 출처, 관련영상 : https://www.youtube.com/watch?v=GjNXK1SGDLw
 
 * 실습문장
 * ======SQLContext, pandas이용=============
