@@ -42,13 +42,15 @@
 * dataframe_v = sqlContext.createDataFrame(pd.read_cdv("경로"))
 * from pyspark.sql.types import *  sqlContext.createDataFrame(list, 타입).show() list자료형을 df자료형으로 넣을때
 
-* Working with databases
+* Working with databases 어렵게 할필요없음
 * import jpype   import jaydebeapi as jp    
 * jpype.startJVM(jpype.getDefaultJVMPath(), '-Djava.class.path=C:\python-dev/ojdbc6.jar')
 * conn = jp.connect('oracle.jdbc.OracleDriver','jdbc:oracle:thin:ID/pW@IP/SID') 
 * cur = conn.cursor()      cur.execute("select * from    
 * acc = cur.fetchall()   cur.close()   conn.close()  jpype.shutdownJVM()   print(acc)
 * 출처, https://bongury.tistory.com/89
+* 아래 한줄로 jdbc접속 가능 단 ojdbc6.jar는 spark모듈내 jar추가 필요
+* spark.read.format("jdbc").options(url="jdbc:oracle:thin:ID/PW@호스트:1521/SID",dbtable="(조회문)",user="ID",password="PW",driver="oracle.jdbc.OracleDriver").load() 
 
 * 실습문장
 * ======SQLContext, pandas이용=============
