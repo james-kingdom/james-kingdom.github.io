@@ -93,13 +93,13 @@
 
 # matplotlib.pyplot
 * import matplotlib.pyplot as plt     
-* plt.hist(life_exp1950, bins=15)   plt.xticks([1,2,3],['1k','2k','3k']) plt.xlabel('x축이름')  plt.title('제목') 
 * 선 - plt.plot([1,2],[1,5])   
-* 점/원형 - plt.scatter([1,2,3],[10,20,30],c='red',alpha=0.2)     plt.legend(['Mouse', 'Cat'])
+* 점/원형 - plt.scatter([1,2,3],[10,20,30],c='red',alpha=0.2)     
 * 막대바 - plt.bar([1,2,3], [1,5,8], width=0.7, color="blue")
-
-
-* plt.xscale('log')   
+* import matplotlib.font_manager as fm
+* plt.xlabel('POS번호', fontproperties=fm.FontProperties(fname='C:\Windows\Fonts\GULIM.ttc', size=50))
+* plt.grid(b=True,which='both',axis='both')     plt.xscale('log')   plt.legend(['Mouse', 'Cat'])
+* plt.hist(life_exp1950, bins=15)   plt.xticks([1,2,3],['1k','2k','3k']) plt.xlabel('x축이름')  plt.title('제목') 
 
 #  ECMAScript 6(ES6) - 
 * 출처 https://jsdev.kr/t/es6/2944 
