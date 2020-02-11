@@ -91,6 +91,16 @@
 *  https://wikidocs.net/16565           개념정리
 *  https://jaeyung1001.tistory.com/59   함수정리
 
+# matplotlib.pyplot
+* import matplotlib.pyplot as plt     
+* plt.hist(life_exp1950, bins=15)   plt.xticks([1,2,3],['1k','2k','3k']) plt.xlabel('x축이름')  plt.title('제목') 
+* 선 - plt.plot([1,2],[1,5])   
+* 점/원형 - plt.scatter([1,2,3],[10,20,30],c='red',alpha=0.2)     plt.legend(['Mouse', 'Cat'])
+* 막대바 - plt.bar([1,2,3], [1,5,8], width=0.7, color="blue")
+
+
+* plt.xscale('log')   
+
 #  ECMAScript 6(ES6) - 
 * 출처 https://jsdev.kr/t/es6/2944 
 * http://woowabros.github.io/experience/2017/12/01/es6-experience.html
