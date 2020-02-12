@@ -101,6 +101,13 @@
 * plt.grid(b=True,which='both',axis='both')     plt.xscale('log')   plt.legend(['Mouse', 'Cat'])
 * plt.hist(life_exp1950, bins=15)   plt.xticks([1,2,3],['1k','2k','3k']) plt.xlabel('x축이름')  plt.title('제목') 
 
+
+# flask 파이선웹어플리케이션
+* 실행 flask run - 최초 context 지점 app.py 5000포트 러닝
+* app = Flask(__name__) @app.route('/') def index(): return render_template('index.html')
+* 파이선으로 간단히 서버 구동시 python -m http.server 8080
+
+
 #  ECMAScript 6(ES6) - 
 * 출처 https://jsdev.kr/t/es6/2944 
 * http://woowabros.github.io/experience/2017/12/01/es6-experience.html
