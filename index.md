@@ -103,10 +103,16 @@
 
 
 # flask 파이선웹어플리케이션
+* Python으로으로 구동되는 웹서버/프레임워크, Django 와 같은 한종류, 설치 pip install flask
+* 출처, 학습 영상 - https://www.youtube.com/watch?v=u2KnTZa1_WU
+* https://velog.io/@decody/%ED%8C%8C%EC%9D%B4%EC%8D%AC-Flask%EB%A1%9C-%EA%B0%84%EB%8B%A8-%EC%9B%B9%EC%84%9C%EB%B2%84-%EA%B5%AC%EB%8F%99%ED%95%98%EA%B8%B0
 * 실행 flask run - 최초 context 지점 app.py 5000포트 러닝
 * app = Flask(__name__) @app.route('/') def index(): return render_template('index.html')
 * 파이선으로 간단히 서버 구동시 python -m http.server 8080
 
+
+# KONLPY 코엔엘파이
+https://konlpy-ko.readthedocs.io/ko/v0.4.3/
 
 #  ECMAScript 6(ES6) - 
 * 출처 https://jsdev.kr/t/es6/2944 
@@ -155,11 +161,6 @@
 # React
 * npm install -g create-react-app 설치 create-react-app hello-world
 * 출처 - https://beomy.tistory.com/24#createReactApp
-
-# Flask
-* Python으로으로 구동되는 웹서버/프레임워크, Django 와 같은 한종류, 설치 pip install flask
-* 출처, 학습 영상 - https://www.youtube.com/watch?v=u2KnTZa1_WU
-* https://velog.io/@decody/%ED%8C%8C%EC%9D%B4%EC%8D%AC-Flask%EB%A1%9C-%EA%B0%84%EB%8B%A8-%EC%9B%B9%EC%84%9C%EB%B2%84-%EA%B5%AC%EB%8F%99%ED%95%98%EA%B8%B0
 
 # socket.io
 * 설치 npm install socket.io --save
