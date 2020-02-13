@@ -101,6 +101,18 @@
 * plt.grid(b=True,which='both',axis='both')     plt.xscale('log')   plt.legend(['Mouse', 'Cat'])
 * plt.hist(life_exp1950, bins=15)   plt.xticks([1,2,3],['1k','2k','3k']) plt.xlabel('x축이름')  plt.title('제목') 
 
+# pyspark.ml
+* from pyspark.ml import Pipeline
+* from pyspark.ml.classification import LogisticRegression
+* from pyspark.ml.feature import HashingTF, Tokenizer
+* 관련학습 출처 https://spark.apache.org/docs/latest/ml-pipeline.html 
+* 출처- https://docs.microsoft.com/ko-kr/azure/hdinsight/spark/apache-spark-machine-learning-mllib-ipython#construct-the-input-dataframe
+1) pipeline(Estimator)
+2) Pipeline.fit()
+3) pipelineModel(Transformer)
+4) pipelineModel.transform()
+
+
 
 # flask 파이선웹어플리케이션
 * Python으로으로 구동되는 웹서버/프레임워크, Django 와 같은 한종류, 설치 pip install flask
