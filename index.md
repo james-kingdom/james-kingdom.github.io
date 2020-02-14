@@ -112,6 +112,14 @@
 3) pipelineModel(Transformer)
 4) pipelineModel.transform()
 
+# AI학습
+* 머신러닝 - 라이브러리 사이킷런(Scikit-learn) 데이터정리, 모델학습(서포트벡터머신,나이브베이즈), 모델평가(교차검증,파이프라인), 
+* 출처 -  https://blog.naver.com/sundooedu/221275605087
+* 딥러닝 - 텐서플로
+
+# Scikit-learn
+* 설치 pip install sckit-learn
+
 
 
 # flask 파이선웹어플리케이션
