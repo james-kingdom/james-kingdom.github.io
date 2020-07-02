@@ -4,26 +4,27 @@
 
 # ubuntu 환경에서 hbase설치
 1. 자바설치
-https://blog.naver.com/eon7500/221884844345
-$sudo apt-get update
-$java -version
-$sudo nano /etc/environment 
-JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64" 
-$ source /etc/environment
-$ echo $JAVA_HOME
+* https://blog.naver.com/eon7500/221884844345
+* $sudo apt-get update
+* $java -version
+* $sudo nano /etc/environment 
+* JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64" 
+* $ source /etc/environment
+* $ echo $JAVA_HOME
 
 2. hbase설치
-https://tlstjscjswo.tistory.com/entry/VM-Ubuntu-Hbase-%EC%84%A4%EC%B9%98
-wget http://archive.apache.org/dist/hbase/1.2.3/hbase-1.2.3-bin.tar.g
-vi /etc/bash.bashrc 홈디렉토리
-/dev/app/hbase-1.2.3/conf/hbase-env.sh 주석막기
-/dev/app/hbase-1.2.3/conf/hbase-site.xml
+* https://tlstjscjswo.tistory.com/entry/VM-Ubuntu-Hbase-%EC%84%A4%EC%B9%98
+* wget http://archive.apache.org/dist/hbase/1.2.3/hbase-1.2.3-bin.tar.g
+* vi /etc/bash.bashrc 홈디렉토리
+* /dev/app/hbase-1.2.3/conf/hbase-env.sh 주석막기
+* /dev/app/hbase-1.2.3/conf/hbase-site.xml
 <configuration>
         <property>
                 <name>hbase.rootdir</name>
                 <value>$HBASE_HOME/bin/hbase</value>
         </property>
 </configuration>
+*확인 http://localhost:16010/master-status
 
 # Apache Spark=====
 * pyspark설치
