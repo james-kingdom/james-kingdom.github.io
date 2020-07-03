@@ -2,13 +2,17 @@
 
 * 개인학습용도이고, 출처를 최대한 표기했으나 문제가 있다면 kingdomokay@gmail.com 연락 주세요. 
 
+# hadoop filesystem 설치
+https://tlstjscjswo.tistory.com/entry/VM-Ubuntu-Hbase-%EC%84%A4%EC%B9%98
+
 # ubuntu 환경에서 hbase설치
 1. 자바설치
 * https://blog.naver.com/eon7500/221884844345
 * $sudo apt-get update
 * $java -version
-* $sudo nano /etc/environment 
+* $ sudo nano /etc/environment 
 * JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64" 
+* $sudo nano /etc/environment 
 * $ source /etc/environment
 * $ echo $JAVA_HOME
 
