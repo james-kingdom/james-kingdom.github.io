@@ -5,6 +5,9 @@
 # hadoop filesystem 설치
 https://tlstjscjswo.tistory.com/entry/VM-Ubuntu-Hbase-%EC%84%A4%EC%B9%98
 
+https://superkong1.tistory.com/41
+
+
 # ubuntu 환경에서 hbase설치
 1. 자바설치
 * https://blog.naver.com/eon7500/221884844345
