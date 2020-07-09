@@ -2,6 +2,9 @@
 
 * 개인학습용도이고, 출처를 최대한 표기했으나 문제가 있다면 kingdomokay@gmail.com 연락 주세요. 
 
+# zookeeper 설치
+https://eyeballs.tistory.com/107?category=740961
+
 # hadoop filesystem 설치
 https://tlstjscjswo.tistory.com/entry/VM-Ubuntu-Hbase-%EC%84%A4%EC%B9%98
 
