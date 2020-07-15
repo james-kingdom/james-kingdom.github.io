@@ -3,9 +3,9 @@
 * 개인학습용도이고, 출처를 최대한 표기했으나 문제가 있다면 kingdomokay@gmail.com 연락 주세요. 
 
 # zookeeper 설치
-https://eyeballs.tistory.com/107?category=740961
+* https://eyeballs.tistory.com/107?category=740961
 
-#ambari-server설치 (ubuntu 18)
+# ambari-server설치 (ubuntu 18)
 * wget -O /etc/apt/sources.list.d/ambari.list http://public-repo-1.hortonworks.com/ambari/ubuntu18/2.x/updates/2.7.3.0/ambari.list
 * apt-key adv --recv-keys --keyserver keyserver.ubuntu.com B9733A7A07513CAD
 * apt-get update
