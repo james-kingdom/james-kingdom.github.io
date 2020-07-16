@@ -1,7 +1,8 @@
 # [editor on GitHub](https://github.com/james-kingdom/james-kingdom.github.io/edit/master/index.md)
 
 * 개인학습용도이고, 출처를 최대한 표기했으나 문제가 있다면 kingdomokay@gmail.com 연락 주세요. 
-
+# hadoop 설치중 
+* https://ssup2.github.io/record/Hadoop_%EC%84%A4%EC%B9%98_%EC%84%A4%EC%A0%95_Ubuntu_18.04/
 # hadoop Permission denied (publickey,password).
 * ssh-keygen -t rsa -P '' -f /root/.ssh/id_rsa
 * cat /root/.ssh/id_rsa.pub >> /root/.ssh/authorized_keys
