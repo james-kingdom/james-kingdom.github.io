@@ -2,6 +2,17 @@
 
 * 개인학습용도이고, 출처를 최대한 표기했으나 문제가 있다면 kingdomokay@gmail.com 연락 주세요. 
 
+# hadoop Permission denied (publickey,password).
+* ssh-keygen -t rsa -P '' -f /root/.ssh/id_rsa
+* cat /root/.ssh/id_rsa.pub >> /root/.ssh/authorized_keys
+* chmod og-wx /root/.ssh/authorized_keys
+* vi $HADOOP_HOME/etc/hadoop/hadoop-env.sh
+* export HDFS_NAMENODE_USER=root
+* export HDFS_DATANODE_USER=root
+* export HDFS_SECONDARYNAMENODE_USER=root
+* export YARN_RESOURCEMANAGER_USER=root
+* export YARN_NODEMANAGER_USER=root
+
 # SSH 서버 설정 접속
 * sudo apt-get update
 * sudo apt-get install openssh-server
