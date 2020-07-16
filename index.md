@@ -2,6 +2,13 @@
 
 * 개인학습용도이고, 출처를 최대한 표기했으나 문제가 있다면 kingdomokay@gmail.com 연락 주세요. 
 
+# SSH 서버 설정 접속
+* sudo apt-get update
+* sudo apt-get install openssh-server
+* sudo apt-get install ssh
+* sudo bash install.sh
+* sudo service ssh start
+
 # zookeeper 설치
 * https://eyeballs.tistory.com/107?category=740961
 
