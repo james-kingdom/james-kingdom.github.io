@@ -1,5 +1,11 @@
 # [editor on GitHub](https://github.com/james-kingdom/james-kingdom.github.io/edit/master/index.md)
 
+# H2o AutoML 
+*아래는 h2o 가이드.
+* https://docs.h2o.ai/h2o/latest-stable/h2o-docs/starting-h2o.html#id1
+*아래는 h2o 머신러닝으로 암 (양성 or 악성)판별한건데 흥미롭네요.
+* https://partrita.github.io/posts/H2O/
+
 # h2o auto-ml rstudio
 * https://niceguy1575.tistory.com/entry/%F0%9F%92%A6-R-%EA%B8%B0%EB%B0%98-H2O-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D%EC%BD%94%EB%93%9C-Setup-Processing?category=738019
 # 의사결정트리
