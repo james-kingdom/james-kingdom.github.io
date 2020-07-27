@@ -1,5 +1,11 @@
 # [editor on GitHub](https://github.com/james-kingdom/james-kingdom.github.io/edit/master/index.md)
 
+# h2o auto-ml rstudio
+* https://niceguy1575.tistory.com/entry/%F0%9F%92%A6-R-%EA%B8%B0%EB%B0%98-H2O-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D%EC%BD%94%EB%93%9C-Setup-Processing?category=738019
+# 의사결정트리
+* https://niceguy1575.tistory.com/entry/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%A7%88%EC%9D%B4%EB%8B%9D-9-Decision-TREE-%EC%9D%98%EC%82%AC%EA%B2%B0%EC%A0%95%EB%82%98%EB%AC%B4%EC%99%80-%EB%82%98%EB%AC%B4%EC%9D%98-%ED%9B%84%EC%98%88%EB%93%A4Bagging-Random-forest-Boosting?category=738019
+* https://datascienceschool.net/view-notebook/16c28c8c192147bfb3d4059474209e0a/
+
 * 개인학습용도이고, 출처를 최대한 표기했으나 문제가 있다면 kingdomokay@gmail.com 연락 주세요. 
 # hadoop 설치중 
 * https://ssup2.github.io/record/Hadoop_%EC%84%A4%EC%B9%98_%EC%84%A4%EC%A0%95_Ubuntu_18.04/
