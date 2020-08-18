@@ -1,5 +1,11 @@
 # [editor on GitHub](https://github.com/james-kingdom/james-kingdom.github.io/edit/master/index.md)
 
+# 데이터사이언스
+1) 시계열 분석
+* 목표 - 1. 미래값예측, 2) 데이터특성파악
+
+
+
 # H2o AutoML 
 *아래는 h2o 가이드.
 * https://docs.h2o.ai/h2o/latest-stable/h2o-docs/starting-h2o.html#id1
