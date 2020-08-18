@@ -30,12 +30,12 @@
 * 정규화선형회귀(릿지회귀, 라소회귀, 엘라스틱넷 회귀)
 4) 데이터마이닝
 * 정의 : 유용한 정보를 찾는 과정
- ㄱ) 분류(classification) 
- ㄴ) 추정(estimation)
- ㄷ) 예측(prediction)
- ㄹ) 연관분석(association analysis)
- ㅁ) 군집(clustering)
- ㅂ) 기술(description)
+        ㄱ) 분류(classification) 
+        ㄴ) 추정(estimation)
+        ㄷ) 예측(prediction)
+        ㄹ) 연관분석(association analysis)
+        ㅁ) 군집(clustering)
+        ㅂ) 기술(description)
 
 # H2o AutoML 
 *아래는 h2o 가이드.
