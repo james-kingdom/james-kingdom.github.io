@@ -37,6 +37,13 @@
 * 4) 연관분석(association analysis) : 장바구니 분석 과같이 아이템의연관성을 파악하는 분석
 * 5) 군집(clustering) : 분류와 달리 다른레코드와의 유사성에 의해 그룹화 되고 이질성의 의해 세분화, 데이터마이닝이나 모델링의 준비단계로 사용
 * 6) 기술(description) : 데이터 분석 의미 단순 기술
+https://blog.naver.com/chgchi76/221349463581
+1) 연관(association) : 지지도, 신뢰도, 향상도, apriori알고리즘
+2) 시간(sequence): 시계열성, lstm, 언어모델링/분석
+3) 분류(classification) : decision tree 
+4) 군집(clustering) : k-means알고리즘, k-medoids, nearest neighbor, 계층적군집화, som 차원축소
+5) 특징(characterization) : PCA
+
 * 데이터마이닝 5단계 : 1. 목적정의 2. 데이터준비 3. 데이터가공 4. 데이터마이닝 기법 적용 5. 검증
 https://blog.naver.com/dsz08082/222048119542
 
