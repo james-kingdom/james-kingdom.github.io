@@ -30,12 +30,13 @@
 * 정규화선형회귀(릿지회귀, 라소회귀, 엘라스틱넷 회귀)
 4) 데이터마이닝
 * 정의 : 유용한 정보를 찾는 과정
-        ㄱ) 분류(classification) 
-        ㄴ) 추정(estimation)
-        ㄷ) 예측(prediction)
-        ㄹ) 연관분석(association analysis)
-        ㅁ) 군집(clustering)
-        ㅂ) 기술(description)
+* ㄱ) 분류(classification) : 분류기법다양, 의사결정나무, 랜덤포레스트 등
+* ㄴ) 추정(estimation) : 연속된 변수 값 추정에 사용, 신경망 모형 등
+* ㄷ) 예측(prediction) : 입력 데이터 성격에 따라 의사결정나무, 신경망 예측등
+* ㄹ) 연관분석(association analysis) : 장바구니 분석 과같이 아이템의연관성을 파악하는 분석
+* ㅁ) 군집(clustering) : 분류와 달리 다른레코드와의 유사성에 의해 그룹화 되고 이질성의 의해 세분화, 데이터마이닝이나 모델링의 준비단계로 사용
+* ㅂ) 기술(description) : 데이터 분석 의미 단순 기술
+https://blog.naver.com/dsz08082/222048119542
 
 # H2o AutoML 
 *아래는 h2o 가이드.
