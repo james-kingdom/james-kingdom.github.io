@@ -1,5 +1,9 @@
 # [editor on GitHub](https://github.com/james-kingdom/james-kingdom.github.io/edit/master/index.md)
 
+# Gradle
+Groovy를 기반으로 한 오픈소스 빌드 도구이다. Ant의 자유도와 Maven의 관례를 통한 접근성을 바탕으로 이전 빌드툴의 단점을 보완하여 개선된 서비스를 제공한다
+(출처 https://ko.wikipedia.org/wiki/Gradle)
+
 # 데이터사이언스
 * 출처 - https://blog.naver.com/dsz08082/222034174003
 1) 시계열 분석
