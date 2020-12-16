@@ -1,5 +1,18 @@
 # [editor on GitHub](https://github.com/james-kingdom/james-kingdom.github.io/edit/master/index.md)
 
+# kafka 
+* Kafka 용어 정리(출처 - https://man-tae.tistory.com/12?category=800764)
+* windows 환경에서 zookeeper 설치 및 실행(출처 - https://man-tae.tistory.com/3)
+* windows 환경에서 kafka 설치 및 실행 (출처 - https://man-tae.tistory.com/5?category=800764)
+
+# pentaho data integration
+* tutorial
+https://www.hitachivantara.com/en-us/products/data-management-analytics/pentaho/tutorials.html?ecid=ms_glo_bd_en_sscepen02?icid=as_us_en_2020068#getting-started
+
+# talend open studio
+* tutorial
+https://www.talend.com/resources/filtering-data-using-tmap-component/
+
 # Gradle
 Groovy를 기반으로 한 오픈소스 빌드 도구이다. Ant의 자유도와 Maven의 관례를 통한 접근성을 바탕으로 이전 빌드툴의 단점을 보완하여 개선된 서비스를 제공한다
 (출처 https://ko.wikipedia.org/wiki/Gradle)
