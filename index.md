@@ -4,6 +4,11 @@
 * Kafka 용어 정리(출처 - https://man-tae.tistory.com/12?category=800764)
 * windows 환경에서 zookeeper 설치 및 실행(출처 - https://man-tae.tistory.com/3)
 * windows 환경에서 kafka 설치 및 실행 (출처 - https://man-tae.tistory.com/5?category=800764)
+* 1) 주키퍼실행 apache-zookeeper-3.5.8\bin/zkServer.cmd
+* 2) 카프카실행 kafka_2.13-2.6.0\bin\windows\kafka-server-start.bat config\server.properties 
+* 3) 카프카예제 토픽생성  kafka_2.13-2.6.0\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test20190715
+* 4) 카프카예제 리스트조회 kafka_2.13-2.6.0\bin\windows\kafka-topics.bat --list --zookeeper localhost:2181
+* 5) 카프카예제 컨슈머시작 kafka_2.13-2.6.0\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic test20190715
 
 # pentaho data integration
 * tutorial
