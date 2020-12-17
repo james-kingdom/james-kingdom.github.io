@@ -84,6 +84,7 @@ https://blog.naver.com/dsz08082/222048119542
 
 * 개인학습용도이고, 출처를 최대한 표기했으나 문제가 있다면 kingdomokay@gmail.com 연락 주세요. 
 # hadoop 설치중 
+* 윈도우에 hdfs 설치 https://icodebroker.tistory.com/4218
 * https://ssup2.github.io/record/Hadoop_%EC%84%A4%EC%B9%98_%EC%84%A4%EC%A0%95_Ubuntu_18.04/
 # hadoop Permission denied (publickey,password).
 * ssh-keygen -t rsa -P '' -f /root/.ssh/id_rsa
