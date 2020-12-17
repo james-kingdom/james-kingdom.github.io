@@ -1,5 +1,10 @@
 # [editor on GitHub](https://github.com/james-kingdom/james-kingdom.github.io/edit/master/index.md)
 
+# hadoop 설치중 (윈도우) 
+* 윈도우에 hdfs 설치 https://icodebroker.tistory.com/4218
+* hdfs테스트 (https://kamang-it.tistory.com/entry/Hadoop-03%EB%A7%B5%EB%A6%AC%EB%93%80%EC%8A%A4-%EC%98%88%EC%A0%9CWordCount?category=707479?category=707479)
+* http://localhost:8088/cluster/nodes/unhealthy  http://localhost:50070/dfshealth.html#tab-overview
+
 # kafka 
 * Kafka 용어 정리(출처 - https://man-tae.tistory.com/12?category=800764)
 * windows 환경에서 zookeeper 설치 및 실행(출처 - https://man-tae.tistory.com/3)
@@ -83,8 +88,7 @@ https://blog.naver.com/dsz08082/222048119542
 * https://datascienceschool.net/view-notebook/16c28c8c192147bfb3d4059474209e0a/
 
 * 개인학습용도이고, 출처를 최대한 표기했으나 문제가 있다면 kingdomokay@gmail.com 연락 주세요. 
-# hadoop 설치중 
-* 윈도우에 hdfs 설치 https://icodebroker.tistory.com/4218
+# hadoop 설치중 (리눅스)
 * https://ssup2.github.io/record/Hadoop_%EC%84%A4%EC%B9%98_%EC%84%A4%EC%A0%95_Ubuntu_18.04/
 # hadoop Permission denied (publickey,password).
 * ssh-keygen -t rsa -P '' -f /root/.ssh/id_rsa
