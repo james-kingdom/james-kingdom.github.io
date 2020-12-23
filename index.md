@@ -1,5 +1,8 @@
 # [editor on GitHub](https://github.com/james-kingdom/james-kingdom.github.io/edit/master/index.md)
 
+# 리눅스 파티션 프로그램 설치
+* sudo apt-get install gparted   https://miiingo.tistory.com/221
+
 # 윈도우에 설치하기 용 
 #	Zookeeper
 *	출처 : https://man-tae.tistory.com/3
