@@ -1,5 +1,56 @@
 # [editor on GitHub](https://github.com/james-kingdom/james-kingdom.github.io/edit/master/index.md)
 
+# 윈도우에 설치하기 용 
+#	Zookeeper
+*	출처 : https://man-tae.tistory.com/3
+*	다운로드 : http://www.apache.org/dyn/closer.cgi/zookeeper/
+*	설정파일수정: 압축해제후 zookeeper-3.4.14\conf 경로에 있는 zoo_sample.cfg 복사하여 zoo.cfg생성 후 dataDir=data로변경
+*	실행방법 : zkServer.cmd 실행
+
+#	kafka설치
+*	다운로드 : https://kafka.apache.org/downloads
+*	설정파일수정: config\server.properties수정  log.dirs=\kafka_2.11-1.1.0\logs
+*	실행방법
+*1) 주키퍼실행 apache-zookeeper-3.5.8\bin/zkServer.cmd
+*2) 카프카실행 kafka_2.13-2.6.0\bin\windows\kafka-server-start.bat config\server.properties
+*3) 카프카예제 토픽생성 kafka_2.13-2.6.0\bin\windows\kafka-topics.bat –create –zookeeper localhost:2181 –replication-factor 1 –partitions 1 –topic test20190715
+*4) 카프카예제 리스트조회 kafka_2.13-2.6.0\bin\windows\kafka-topics.bat –list –zookeeper localhost:2181
+*5) 카프카예제 컨슈머시작 kafka_2.13-2.6.0\bin\windows\kafka-console-consumer.bat –bootstrap-server localhost:9092 –topic test20190715
+
+#	hadoop-2.7.1 
+*	출처: https://icodebroker.tistory.com/4218 [ICODEBROKER]
+*	다운로드 : https://archive.apache.org/dist/hadoop/core/hadoop-2.6.0/
+*	설정파일수정 (첨부 hadoop-2.7.1설정.zi 참고)
+*1) hdfs환경설정 : hadoop-env.cmd, hdfs-site.xml, core-site.xml, slaves
+*2) yarn환경설정 : mapred-site.xml, yarn-site.xml
+*3) 환경 변수 초기화 하기
+*hadoop-2.6.0\etc\hadoop\hadoop-env.cmd실행
+*4) 파일 시스템 포맷하기
+*hdfs namenode -format 명령어 실행
+*5) HDFS 데몬 시작하기
+*hadoop-2.6.0\sbin\start-dfs.cmd 실행
+*hadoop-2.6.0\sbin\start-yarn.cmd 실행
+*6) 서비스 확인 
+* JPS실행 및 http://localhost:8088 http://localhost:50070
+* 맵리듀스 예제확인 첨부 자바파일 
+
+#	Zeppelin을 다운로드 (all-interpreters버전 1.5기가)
+* 다운로드 : https://zeppelin.apache.org/download.html 
+* 실행방법 : 사전에 Hadoop_home이 설정 된 상태에서 D:\ADT\zeppelin-0.9.0-preview2-bin-all\bin\zeppelin.cmd실행
+* 이슈 : Web application not found D:\ADT\zeppelin-0.9.0-preview2-bin-all\bin\zeppelin-web-angular\dist
+* 조치 : D:\ADT\zeppelin-0.9.0-preview2-bin-all\zeppelin-web-angular-0.9.0-preview2.war를 위 경로에 압축해제 후 가동
+
+#	PostgreSQL
+* Tutorial&download : https://www.enterprisedb.com/postgres-tutorials/connecting-postgresql-using-psql-and-pgadmin
+
+#	Pentaho Data Integration 
+* 개요 : https://hhgg.tistory.com/2
+* 다운로드 : https://sourceforge.net/projects/pentaho/
+* Tutorial : https://www.hitachivantara.com/en-us/products/data-management-analytics/pentaho/tutorials.html?ecid=ms_glo_bd_en_sscepen02?icid=as_us_en_2020068
+
+#	Talend Open Studio
+* 다운로드 : https://www.talend.com/download/thankyou/data-integration-windows/?file=TOS_DI-Win32-20200219_1130-V7.3.1.exe
+* Tutorial : https://www.talend.com/resources/filtering-data-using-tmap-component/
 # hadoop 설치중 (윈도우) 
 * 윈도우에 hdfs 설치 https://icodebroker.tistory.com/4218
 * hdfs테스트 (https://kamang-it.tistory.com/entry/Hadoop-03%EB%A7%B5%EB%A6%AC%EB%93%80%EC%8A%A4-%EC%98%88%EC%A0%9CWordCount?category=707479?category=707479)
