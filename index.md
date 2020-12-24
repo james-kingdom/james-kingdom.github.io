@@ -1,5 +1,8 @@
 # [editor on GitHub](https://github.com/james-kingdom/james-kingdom.github.io/edit/master/index.md)
 
+# 리눅스 캐시메모리 삭제
+* sync && echo 3 > /proc/sys/vm/drop_caches https://blog.lael.be/post/1090
+
 # 리눅스 파티션 프로그램 설치
 * sudo apt-get install gparted   https://miiingo.tistory.com/221
 
