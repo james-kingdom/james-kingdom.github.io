@@ -31,6 +31,7 @@
 *5) 카프카예제 컨슈머시작 kafka_2.13-2.6.0\bin\windows\kafka-console-consumer.bat –bootstrap-server localhost:9092 –topic test20190715
 
 #	hadoop-2.7.1 
+* 하둡 safemode 조치명령어 sudo -u hdfs hdfs dfsadmin -safemode leave
 *	출처: https://icodebroker.tistory.com/4218 [ICODEBROKER]
 *	다운로드 : https://archive.apache.org/dist/hadoop/core/hadoop-2.6.0/
 *	설정파일수정 (첨부 hadoop-2.7.1설정.zi 참고)
