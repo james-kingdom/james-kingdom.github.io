@@ -1,5 +1,12 @@
 # [editor on GitHub](https://github.com/james-kingdom/james-kingdom.github.io/edit/master/index.md)
 
+# Spark master slave 클러스터 모드로 실행
+* sbin> start-master.sh 실행, start-slave -m 128M spark://bread9@bread9-vm.mshome.net:7077 실행
+* bin> pyspark --master spark://bread9@bread9-vm.mshome.net:7077 실행 하여 확인
+* 모니터링 http://bread9-vm.mshome.net:8080/ 
+* spark-env.sh 추가 export SPARK_WORKER_INSTANCES=3
+* 출처 https://jdm.kr/blog/167
+
 # 리눅스 캐시메모리 삭제
 * sync && echo 3 > /proc/sys/vm/drop_caches https://blog.lael.be/post/1090
 
