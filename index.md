@@ -7,6 +7,27 @@
 * spark-env.sh 추가 export SPARK_WORKER_INSTANCES=3
 * 출처 https://jdm.kr/blog/167
 
+* 그외 spark기본설정사항 출처 https://glow153.tistory.com/16
+*  conf/spark-env.sh
+(... 파일 내용 하단에 추가)
+* export JAVA_HOME=/home/user/apps/java
+* export HADOOP_HOME=/home/witlab/apps/hadoop
+* export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop
+* export LD_LIBRARY_PATH=$HADOOP_HOME/lib/native
+* export SPARK_LOCAL_IP="xxx.xxx.xxx.xxx"  # your local ip
+* export PYSPARK_PYTHON=/usr/bin/python3
+* export PYSPARK_DRIVER_PYTHON=/usr/bin/python3
+* export SPARK_MASTER_HOST=localhost
+
+* conf/spark-defaults.conf
+* spark.master                     spark://localhost:7077
+*   2.2.2 spark 성능 향상 (선택사항, 절대적인 설정이 아님!) (참고 : link)
+* spark.executor.instances=1
+* spark.executor.cores=3
+* spark.executor.memory=4g
+* spark.driver.cores=1
+* spark.driver.memory=4g
+
 # 리눅스 캐시메모리 삭제
 * sync && echo 3 > /proc/sys/vm/drop_caches https://blog.lael.be/post/1090
 
