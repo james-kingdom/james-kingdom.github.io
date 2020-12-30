@@ -10,6 +10,9 @@
 * 그외 spark기본설정사항 출처 https://glow153.tistory.com/16
 *  conf/spark-env.sh
 (... 파일 내용 하단에 추가)
+* export SPARK_WORKER_INSTANCES = 8
+* export SPARK_WORKER_CORES = 1
+* export SPARK_WORKER_MEMORY = 128
 * export JAVA_HOME=/home/user/apps/java
 * export HADOOP_HOME=/home/witlab/apps/hadoop
 * export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop
