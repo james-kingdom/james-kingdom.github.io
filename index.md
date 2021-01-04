@@ -329,7 +329,9 @@ https://superkong1.tistory.com/41
 * textfile_split = textfile.map(lambda x:x.split(";"))
 * textfile_filted = textfile_split.filter(lambda x:"incheon" in x)
 * textfile_filted.toDF().show()
-
+* =======데이터프레임을 테이블 쿼리로 조회하기
+* df2.registerTempTable("df_tmp2")
+* df2 = spark.sql("select * from df_tmp2 where location = 'seoul'")
 
 * 분석라이브러리들
 *  import time
