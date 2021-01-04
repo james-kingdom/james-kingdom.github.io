@@ -324,6 +324,12 @@ https://superkong1.tistory.com/41
 * textfile = spark.read.csv('hdfs://localhost:9000/test6/out.txt')
 * textfile = sc.textFile('hdfs://localhost:9000/test6/out.txt')
 * rs_text = textfile.map(lambda x: (x, )).toDF()
+* ==== hdfs 에서 text파일 pyspark으로 파일 읽기 =========
+* textfile = sc.textFile('hdfs://localhost:9000/test6/out.txt')
+* textfile_split = textfile.map(lambda x:x.split(";"))
+* textfile_filted = textfile_split.filter(lambda x:"incheon" in x)
+* textfile_filted.toDF().show()
+
 
 * 분석라이브러리들
 *  import time
