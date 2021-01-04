@@ -1,5 +1,18 @@
 # [editor on GitHub](https://github.com/james-kingdom/james-kingdom.github.io/edit/master/index.md)
 
+# 람다아키텍처 이해
+* 출처 : https://blog.naver.com/phh0606c/222180224300
+* 1. 람다 아키텍처 개요 
+* 2. ingetion : Kafka, RabbitMQ 
+* 3. fileformat : Avro , Parquet
+* 5. Data Processing : Batch / Streaming
+* 4. fileSystem : HDFS - 왜 HDFS을 쓸까? 
+* 6. Batch Processing : MapReduce/Spark 
+* 7. Streaming Processing : Spark Streaming / Storm 
+* 8. DataBase 1 : Hbase 
+* 9. Cluster Management Tool
+* 10. Workflow Monitoring Tools : hue
+
 # Spark master slave 클러스터 모드로 실행
 * sbin> start-master.sh 실행, start-slave -m 128M spark://bread9@bread9-vm.mshome.net:7077 실행
 * bin> pyspark --master spark://bread9@bread9-vm.mshome.net:7077 실행 하여 확인
