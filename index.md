@@ -306,6 +306,11 @@ https://superkong1.tistory.com/41
 * spark = SparkSession(sc)
 * df = spark.read.option("header","true").csv(r'C:\Users\youngjin7.kim\doc_use_log.csv')
 
+* ==== hdfs 에서 pyspark으로 파일 읽기 =========
+* csvfile = spark.read.csv('hdfs://localhost:9000/test6/fct_data.csv')
+* textfile = spark.read.csv('hdfs://localhost:9000/test6/out.txt')
+* textfile = sc.textFile('hdfs://localhost:9000/test6/out.txt')
+* rs_text = textfile.map(lambda x: (x, )).toDF()
 
 * 분석라이브러리들
 *  import time
@@ -569,7 +574,6 @@ https://konlpy-ko.readthedocs.io/ko/v0.4.3/
 * 4. 국제화(i18n)/지역화(l10n) 함수로 사용되는 경우
 * 5. 숫자 리터럴값의 자릿수 구분을 위한 구분자로써 사용할 때
 * 출처 - https://mingrammer.com/underscore-in-python/
-
     
 * 참고 블로그
 *  https://wikidocs.net/4307 점프투 파이썬
