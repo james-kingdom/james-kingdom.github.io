@@ -2,6 +2,11 @@
 
 # airflow 
 * 출처 - https://bcho.tistory.com/1184
+* 출처 - https://m.blog.naver.com/PostView.nhn?blogId=occidere&logNo=221773113221&proxyReferer=https:%2F%2Fwww.google.com%2F
+* windows wsl 환경 설정 후 sudo apt install python3  & sudo apt install python-pip python-pip3 그리고 pip3 install apache-airflow
+* etc/profile 에 export AIRFLOW_HOME= 홈설정 후 airflow db init 
+* 유저추가 airflow user create -r Admin -u bread -e bread@bread.com -f bread -l sung -p 123456677753 
+* 다시한번 airflow db init  후 airflow webserver -p 8888 
 
 # Apache atlas 소개
 * 출처 - http://www.kwangsiklee.com/2018/05/apache-atlas%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80/
