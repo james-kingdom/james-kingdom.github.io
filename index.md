@@ -1,5 +1,11 @@
 # [editor on GitHub](https://github.com/james-kingdom/james-kingdom.github.io/edit/master/index.md)
 
+# airflow 
+* 출처 - https://bcho.tistory.com/1184
+
+# Apache atlas 소개
+* 출처 - http://www.kwangsiklee.com/2018/05/apache-atlas%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80/
+
 # 람다아키텍처 이해
 * 출처 : https://blog.naver.com/phh0606c/222180224300
 * 1. 람다 아키텍처 개요 
