@@ -7,6 +7,12 @@
 * etc/profile 에 export AIRFLOW_HOME= 홈설정 후 airflow db init 
 * 유저추가 airflow user create -r Admin -u bread -e bread@bread.com -f bread -l sung -p 123456677753 
 * 다시한번 airflow db init  후 airflow webserver -p 8888 
+* 사용법 > 
+* 1) airflow dags list 목록 확인 후 
+* 2) dags 폴더에서 vim my_first.py 생성 후 파이선실행 python3 my_first 
+* 3) airflow tasks list my_first_dag 
+* 4) task 실행 airflow tasks test my_first_dag print_date 2019-06-01T09:00:00
+* 5) 스케쥴 등록 airflow scheduler 후에 웹서버 airflow webserver -p 8888 실행 후 웹접속 dags 확인 
 
 # Apache atlas 소개
 * 출처 - http://www.kwangsiklee.com/2018/05/apache-atlas%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80/
