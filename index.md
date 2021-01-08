@@ -1,5 +1,6 @@
 # [editor on GitHub](https://github.com/james-kingdom/james-kingdom.github.io/edit/master/index.md)
 
+* 리눅스 apt-get install 등 안될때 sudo rm -rf /etc/apt/apt.conf.d/20snapd.conf 삭제 후 시도
 # airflow 
 * 출처 - https://bcho.tistory.com/1184
 * 출처 - https://m.blog.naver.com/PostView.nhn?blogId=occidere&logNo=221773113221&proxyReferer=https:%2F%2Fwww.google.com%2F
