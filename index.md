@@ -1,6 +1,7 @@
 # [editor on GitHub](https://github.com/james-kingdom/james-kingdom.github.io/edit/master/index.md)
 
 # mysql
+* vim /etc/mysql/mysql.conf.d/mysqld.cnf 에서 포트랑 타임존 등 확인 수정
 * sudo apt-get install mysql-server
 * sudo service mysql stop
 * sudo usermod -d /var/lib/mysql/ mysql
