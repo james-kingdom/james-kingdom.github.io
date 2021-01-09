@@ -1,5 +1,6 @@
 # [editor on GitHub](https://github.com/james-kingdom/james-kingdom.github.io/edit/master/index.md)
 
+* wsl 우분투 재시작 -> powershell에서 Restart-Service LxssManager
 * 리눅스 profile수정 오류시 vi나 ls 등 명령어 안될때 export PATH=/usr/bin:/bin
 * 리눅스 apt-get install 등 안될때 sudo rm -rf /etc/apt/apt.conf.d/20snapd.conf 삭제 후 시도
 # airflow 
