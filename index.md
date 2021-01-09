@@ -2,7 +2,10 @@
 
 # hive 
 * 출처 -  https://m.blog.naver.com/PostView.nhn?blogId=airguy76&logNo=150189416769&proxyReferer=https:%2F%2Fwww.google.com%2F
-* conf/hive-site.xml 생성하여 metastore (mysql) 정보 지정, lib에 mysql connector .jar 파일 넣기  hdfs, mysql 서버켜고, bin/hive로 구동
+* conf/hive-site.xml 생성하여 metastore (mysql) 정보 지정, lib에 mysql connector .jar 파일 넣기  hdfs, mysql 서버켜고, bin/hive로 구동 show tables;
+* hive-site.xml에 default.fs.name ->hdfs://localhost:9000  중요, 
+* external 테이블 생성 hive> CREATE EXTERNAL TABLE fct_data( fc_date string, location string) PARTITIONED BY (part_date string, part_location STRING) ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t' STORED AS TEXTFILE;
+
 
 # mysql
 * vim /etc/mysql/mysql.conf.d/mysqld.cnf 에서 포트랑 타임존 등 확인 수정
