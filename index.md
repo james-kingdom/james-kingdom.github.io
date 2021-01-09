@@ -1,5 +1,6 @@
 # [editor on GitHub](https://github.com/james-kingdom/james-kingdom.github.io/edit/master/index.md)
 
+* 리눅스 profile수정 오류시 vi나 ls 등 명령어 안될때 export PATH=/usr/bin:/bin
 * 리눅스 apt-get install 등 안될때 sudo rm -rf /etc/apt/apt.conf.d/20snapd.conf 삭제 후 시도
 # airflow 
 * 출처 - https://bcho.tistory.com/1184
