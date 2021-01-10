@@ -14,6 +14,18 @@
 * sudo usermod -d /var/lib/mysql/ mysql
 * sudo /usr/bin/mysqld_safe --skip-grant-tables
 * mysql -u root mysql
+* mysql과 mariadb 중복설치 후 꼬였을때 완전삭제방법
+* [Mysql]
+* sudo apt-get purge mysql-server
+* sudo apt-get purge mysql-common
+* [MariaDB]
+* sudo apt-get purge mariadb-server
+* sudo apt-get purge mariadb-common
+* [공용작업]
+* sudo rm -rf /var/log/mysql
+* sudo rm -rf /var/log/mysql.*
+* sudo rm -rf /var/lib/mysql
+* sudo rm -rf /etc/mysql
 
 * wsl 우분투 재시작 -> powershell에서 Restart-Service LxssManager
 * 리눅스 profile수정 오류시 vi나 ls 등 명령어 안될때 export PATH=/usr/bin:/bin
