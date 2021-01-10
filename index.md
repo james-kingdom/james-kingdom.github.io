@@ -5,6 +5,8 @@
 * conf/hive-site.xml 생성하여 metastore (mysql) 정보 지정, lib에 mysql connector .jar 파일 넣기  hdfs, mysql 서버켜고, bin/hive로 구동 show tables;
 * hive-site.xml에 default.fs.name ->hdfs://localhost:9000  중요, 
 * external 테이블 생성 hive> CREATE EXTERNAL TABLE fct_data( fc_date string, location string) PARTITIONED BY (part_date string, part_location STRING) ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t' STORED AS TEXTFILE;
+* 메타스토어 (mysql/mariadb)스키마생성 hive --service schemaTool -dbType mysql -initSchema 
+* 이때 timezone 에러시 mariadb.conf/mysql.conf에서 default-time-zone='+9:00' 추가 후mysql 재가동 후 스키마 재생성
 
 
 # mysql
