@@ -1,5 +1,10 @@
 # [editor on GitHub](https://github.com/james-kingdom/james-kingdom.github.io/edit/master/index.md)
 
+# eclipe 에서 pyspark 개발환경
+* 출처 - https://enahwe.wordpress.com/2015/11/25/how-to-configure-eclipse-for-developing-with-python-and-spark-on-hadoop/
+* eclipse 모듈설치 PyDev - http://pydev.org/updates 추가하여 설치 후 
+* Preferences"창에서 : PyDev> Interpreters> Python Interpreter 에서 상단 python.exe설치경로 추가
+
 # hive 
 * 출처 -  https://m.blog.naver.com/PostView.nhn?blogId=airguy76&logNo=150189416769&proxyReferer=https:%2F%2Fwww.google.com%2F
 * conf/hive-site.xml 생성하여 metastore (mysql) 정보 지정, lib에 mysql connector .jar 파일 넣기  hdfs, mysql 서버켜고, bin/hive로 구동 show tables;
