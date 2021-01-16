@@ -37,6 +37,10 @@
 * wsl 우분투 재시작 -> powershell에서 Restart-Service LxssManager
 * 리눅스 profile수정 오류시 vi나 ls 등 명령어 안될때 export PATH=/usr/bin:/bin
 * 리눅스 apt-get install 등 안될때 sudo rm -rf /etc/apt/apt.conf.d/20snapd.conf 삭제 후 시도
+* 리눅스 크론탭 ***** 분.시.일.월.몇요일: 0 ~ 6(0 = 일요일, 1 = 월요일)
+* 리눅스 크론탭 #1분 마다 스크립트 실행 * * * * * /usr/bin/backup.sh >> /var/log/backup.log
+* 리눅스 크론탭 10분 마다 스크립트 실행 */10 * * * * /usr/backup.sh >> /var/log/backup.log
+
 # airflow 
 * 출처 - https://bcho.tistory.com/1184
 * 출처 - https://m.blog.naver.com/PostView.nhn?blogId=occidere&logNo=221773113221&proxyReferer=https:%2F%2Fwww.google.com%2F
