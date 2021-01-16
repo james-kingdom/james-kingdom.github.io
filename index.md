@@ -49,7 +49,9 @@
 * 2) dags 폴더에서 vim my_first.py 생성 후 파이선실행 python3 my_first 
 * 3) airflow tasks list my_first_dag 
 * 4) task 실행 airflow tasks test my_first_dag print_date 2019-06-01T09:00:00
-* 5) 스케쥴 등록 airflow scheduler 후에 웹서버 airflow webserver -p 8888 실행 후 웹접속 dags 확인 
+* 5) 스케쥴 등록 airflow scheduler 후에 웹서버 airflow webserver -p 8888 실행 후 웹접속 dags 확인
+* 6-1) dag = DAG(dag_id='dagid명', default_args=datatime(년월일시분초), schedule_interval="@once")
+* 6-2) t1 .... t2 = BashOperator(task_id='타스크명',bash_command='echo "실행할 명령어"',dag=dag 6-1dag명시) t1 >> t2 순서정의
 
 # Apache atlas 소개
 * 출처 - http://www.kwangsiklee.com/2018/05/apache-atlas%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80/
