@@ -609,7 +609,7 @@ https://konlpy-ko.readthedocs.io/ko/v0.4.3/
 * http://blog.skby.net/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%AA%A8%EB%8D%B8%EB%A7%81-data-modeling/
 
 
-# Python==========
+# Python ==========
 * PEP8 파이썬 코딩스타일 가이드
 * 출처 - https://wayhome25.github.io/python/2017/05/04/pep8/
 *   https://b.luavis.kr/python/python-convention
@@ -659,6 +659,24 @@ https://konlpy-ko.readthedocs.io/ko/v0.4.3/
 * 참고 블로그
 *  https://wikidocs.net/4307 점프투 파이썬
 
+* import re 함수 compile 문
+* 출처 - https://greeksharifa.github.io/%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D(re)/2018/07/20/regex-usage-01-basic/#match-object%EC%9D%98-%EB%A9%94%EC%84%9C%EB%93%9C%EB%93%A4
+* p = re.compile("정규식 표현") 패턴 객체(p)를 만들고 나서 여러번 재사용이 가능하다. 반복적인 매칭 작업이 필요할 경우에는 패턴을 미리 컴파일
+* re.match(pattern, string, flags) 문자열의 처음부터 시작하여 패턴이 일치되는 것이 있는지를 확인한다
+* re.search(pattern, string, flags)  re.match와 비슷하지만, 반드시 문자열의 처음부터 일치해야 하는 것은 아니다.
+* re.findall(pattern, string, flags) 정규식과 매치되는 모든 문자열을 리스트형식으로 리턴한다.
+* re.finditer(pattern, string, flags) 정규식과 매치되는 모든 문자열을 iterator 객체로 리턴한다. 객체의 값을 불러오려면 for문을 이용
+* re.fullmatch(pattern, string, flags) 는 패턴과 문자열이 남는 부분 없이 완벽하게 일치하는지를 검사한다
+
+* matchObj = re.search('match', "'matchObj'~~~~
+* matchObj.group()	일치된 문자열을 반환한다.
+* matchObj.start()	일치된 문자열의 시작 위치를 반환한다.
+* matchObj.end()	일치된 문자열의 끝 위치를 반환한다.
+* matchObj.span()	일치된 문자열의 (시작 위치, 끝 위치) 튜플을 반환한다.
+
+* \d	숫자 0 ~ 9
+* \w	문자를 의미
+* \s	화이트 스페이스를 의미하는데, [\t\n\r\f] 와 동일
 
 # Pandas=========
 
