@@ -678,6 +678,16 @@ https://konlpy-ko.readthedocs.io/ko/v0.4.3/
 * \w	문자를 의미
 * \s	화이트 스페이스를 의미하는데, [\t\n\r\f] 와 동일
 
+* import numpy as np 집합함수 setfuction
+* (1) np.unique(x) : 배열 내 중복된 원소 제거 후 유일한 원소를 정렬하여 반환
+* (2) np.intersect1d(x, y) : 두 개의 배열 x, y 의 교집합을 정렬하여 반환
+* (3) np.union1d(x, y) : 두 개의 배열 x, y의 합집합을 정렬하여 반환
+* (4) np.in1d(x, y) : 첫번째 배열 x가 두번째 배열 y의 원소를 포함하고 있는지 여부의 불리언 배열을 반환
+* (5) np.setdiff1d(x, y) : 첫번째 배열 x로 부터 두번째 배열 y를 뺀 차집합을 반환
+* (6) np.setxor1d(x, y) : 두 배열 x, y의 합집합에서 교집합을 뺀 대칭차집합을 반환 
+* 출처: https://rfriend.tistory.com/355 
+
+
 # Pandas=========
 
 *  import pandas as pd
