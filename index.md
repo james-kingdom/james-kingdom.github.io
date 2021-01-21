@@ -326,6 +326,12 @@ https://superkong1.tistory.com/41
 *  conda install pyspark 
 *  pyspark 
 
+* 정규식 
+* REGEXP_EXTRACT(value, regexp[, position[, occurrence]]) value에서 정규 표현식 regexp와 일치하는 첫 번째 하위 문자열을 반환합니다. 일치하는 항목이 없으면 NULL을 반환합니다.
+* \d	숫자 0 ~ 9
+* \w	문자를 의미
+* \s	화이트 스페이스를 의미하는데, [\t\n\r\f] 와 동일
+
 *  from pyspark.sql.types import *
 *  spark.sql 정형데이터, StructType()으로 스키마 지정으로 속도향상, 
 *  spark.read.csv('xxx.csv', header=True, schema=스키마StructType(), nullValue='NA')
