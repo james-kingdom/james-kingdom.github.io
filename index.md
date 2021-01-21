@@ -699,7 +699,7 @@ https://konlpy-ko.readthedocs.io/ko/v0.4.3/
 * (5) np.setdiff1d(x, y) : 첫번째 배열 x로 부터 두번째 배열 y를 뺀 차집합을 반환
 * (6) np.setxor1d(x, y) : 두 배열 x, y의 합집합에서 교집합을 뺀 대칭차집합을 반환 
 * 출처: https://rfriend.tistory.com/355 
-
+* array 범위인덱스 arr[5:8] -> 인덱스가 5인것 부터 8전까지 즉 5,6,7 을 의미
 
 # Pandas=========
 
