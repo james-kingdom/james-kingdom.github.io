@@ -13,6 +13,13 @@
 * 메타스토어 (mysql/mariadb)스키마생성 hive --service schemaTool -dbType mysql -initSchema 
 * 이때 timezone 에러시 mariadb.conf/mysql.conf에서 default-time-zone='+9:00' 추가 후mysql 재가동 후 스키마 재생성
 
+# oracle 접속 pyspark 파티션 조정옵션
+* var df = spark.read.format("iris").option("dbtable","SELECT * FROM mytable")
+*                   .option("partitionColumn", "columnA")
+*                   .option("lowerBound", 0)
+*                   .option("upperBound", 10000)
+*                   .option("numPartitions", 2)
+*                   .load()
 
 # mysql
 * vim /etc/mysql/mysql.conf.d/mysqld.cnf 에서 포트랑 타임존 등 확인 수정
