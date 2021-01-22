@@ -422,6 +422,33 @@ https://superkong1.tistory.com/41
 *  sc.parallelize - 파이썬 리스트를 스파크 클러스터로 로드, RDD로 변환
 *  sc.textFile    - 외부 텍스트 데이터를 스파크 클러스터로 로드, RDD로 변환
 
+* S3로부터 csv 파일 읽기
+* import boto3
+* import pandas as pd
+* aws_key= ""
+* aws_secret = ""
+* s3 = boto3.client('s3', 'ap-northeast-2', aws_access_key_id = aws_key, aws_secret_access_key = aws_secret)
+* bucket = 'youngjin-kim'
+* df = s3.get_object(Bucket = bucket, Key = 'result/xxxx.csv')
+* df = pd.read_csv(df2['Body'])
+
+* S3로부터 parquet 파일 읽기1
+* import pyarrow.parquet as pq
+* import s3fs
+* s3a = s3fs.S3FileSystem()
+* pandas_dataframe = pq.ParquetDataset('s3://youngjin-kim/result/part-00000-b362685d-4ed7-4a7f-b9c7-04e1f74aea0e-c000.snappy.parquet', * filesystem=s3a).read_pandas().to_pandas()
+
+* S3로부터 parquet 파일 읽기2
+* import boto3
+* import io
+* import pandas as pd
+* def pd_read_s3_parquet(key, bucket, s3_client=None, args):
+*     if s3_client is None:
+*         s3_client = boto3.client('s3')
+*     obj = s3_client.get_object(Bucket=bucket, Key=key)
+*     return pd.read_parquet(io.BytesIO(obj['Body'].read()), args)
+* pd_read_s3_parquet('result/part-00000-b362685d-4ed7-4a7f-b9c7-04e1f74aea0e-c000.snappy.parquet', bucket, s3)
+
 
 * 출처 블로그 
 *  https://frhyme.github.io/python-lib/pyspark/ 설치 튜토리얼
