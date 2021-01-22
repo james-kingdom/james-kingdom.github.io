@@ -165,6 +165,12 @@
 * 개요 : https://hhgg.tistory.com/2
 * 다운로드 : https://sourceforge.net/projects/pentaho/
 * Tutorial : https://www.hitachivantara.com/en-us/products/data-management-analytics/pentaho/tutorials.html?ecid=ms_glo_bd_en_sscepen02?icid=as_us_en_2020068
+* 윈도우 커멘드 JOB 실행 Pan.bat /file:D:\ADT\pentaho\trans1.ktr /level:basic
+* spon.bat - transformation 및 job을 작성, 편집, 실행하거나 디버깅할 때 사용
+* pan.bat - Spoon에서 생성한 transformation을 커맨드라인에서 독립적으로 실행할 때 사용
+* kitchen.bat - Spoon에서 설계한 job을 커맨드라인에서 독립적으로 실행할 때 사용
+* carte.bat - 전용 원격 ETL서버를 설정할 수 있는 경량의 웹 컨테이너
+* Pentaho 서버의 수동 설치를위한 Linux 환경을 https://help.pentaho.com/Documentation/9.0/Setup/Prepare_your_Linux_environment_for_a_manual_installation
 
 #	Talend Open Studio
 * 다운로드 : https://www.talend.com/download/thankyou/data-integration-windows/?file=TOS_DI-Win32-20200219_1130-V7.3.1.exe
