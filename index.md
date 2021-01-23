@@ -1,5 +1,9 @@
 # [editor on GitHub](https://github.com/james-kingdom/james-kingdom.github.io/edit/master/index.md)
 
+# AWS 
+* 윈도우 CLI설치 https://s3.amazonaws.com/aws-cli/AWSCLI64.msi 다운로드
+* 리눅스 CLI설치 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+
 # eclipe 에서 pyspark 개발환경
 * 출처 - https://enahwe.wordpress.com/2015/11/25/how-to-configure-eclipse-for-developing-with-python-and-spark-on-hadoop/
 * eclipse 모듈설치 PyDev - http://pydev.org/updates 추가하여 설치 후 
