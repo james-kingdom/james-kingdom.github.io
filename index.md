@@ -175,6 +175,10 @@
 * kitchen.bat - Spoon에서 설계한 job을 커맨드라인에서 독립적으로 실행할 때 사용
 * carte.bat - 전용 원격 ETL서버를 설정할 수 있는 경량의 웹 컨테이너
 * Pentaho 서버의 수동 설치를위한 Linux 환경을 https://help.pentaho.com/Documentation/9.0/Setup/Prepare_your_Linux_environment_for_a_manual_installation
+* Carte.bat localhost 8883 실행후   
+* http://localhost:8883/kettle/executeTrans/?trans=D:\ADT\pentaho\workspace\s3-maria_filter_select_groupby.ktr 이런식으로 URL접근하면 실행되고
+* http://localhost:8883/kettle/status/ 에서 Transformation 이름상세 보기
+
 
 #	Talend Open Studio
 * 다운로드 : https://www.talend.com/download/thankyou/data-integration-windows/?file=TOS_DI-Win32-20200219_1130-V7.3.1.exe
