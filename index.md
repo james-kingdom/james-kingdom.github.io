@@ -1,7 +1,9 @@
 # [editor on GitHub](https://github.com/james-kingdom/james-kingdom.github.io/edit/master/index.md)
 
 # 쿠버네티스 실습
+* https://subicura.com/k8s/guide/#minikube
 * https://itguava.tistory.com/124
+*
 
 # AWS 
 * 윈도우 CLI설치 https://s3.amazonaws.com/aws-cli/AWSCLI64.msi 다운로드
