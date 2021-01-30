@@ -1,5 +1,8 @@
 # [editor on GitHub](https://github.com/james-kingdom/james-kingdom.github.io/edit/master/index.md)
 
+# 쿠버네티스 실습
+* https://itguava.tistory.com/124
+
 # AWS 
 * 윈도우 CLI설치 https://s3.amazonaws.com/aws-cli/AWSCLI64.msi 다운로드
 * 리눅스 CLI설치 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
