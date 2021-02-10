@@ -1,5 +1,9 @@
 # [editor on GitHub](https://github.com/james-kingdom/james-kingdom.github.io/edit/master/index.md)
 
+# talend
+* shell명령어 배치실행 - https://www.datalytyx.com/scheduling-talend-open-studio-jobs-in-linux-without-talend-administration-center-tac/
+
+
 # 쿠버네티스 실습
 * https://subicura.com/k8s/guide/#minikube
 * https://itguava.tistory.com/124
