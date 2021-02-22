@@ -1,5 +1,14 @@
 # [editor on GitHub](https://github.com/james-kingdom/james-kingdom.github.io/edit/master/index.md)
 
+# IBM 클라우드
+* Cloud Pak for Data (CP4D) IBM 클라우드 팩 포 데이터, 참고 - https://www.slideshare.net/JinSolKim2/cloud-pak-for-data-cp4d-ibm
+* MDM(Master Data Management)
+* IBM SVC - 스토리지 가상화 솔루션 SVC(SAN Volume Controller)
+* Helm은 Kubernetes 용 패키지 관리자 - Helm을 사용하여 사전 구성된 Kubernetes 리소스의 패키지 인 Kubernetes 차트를 구성하고 관리.   
+* Helm 참고 - https://www.ibm.com/cloud/architecture/content/course/helm-fundamentals/helm-def $ helm install <chart>
+* IBM클라우드에 VPN구성 - 참고 - https://cloud.ibm.com/docs/vpc?topic=vpc-vpn-onprem-example
+
+
 # talend
 * shell명령어 배치실행 - https://www.datalytyx.com/scheduling-talend-open-studio-jobs-in-linux-without-talend-administration-center-tac/
 
