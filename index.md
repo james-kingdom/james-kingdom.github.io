@@ -2,12 +2,27 @@
 
 # IBM 클라우드
 * Cloud Pak for Data (CP4D) IBM 클라우드 팩 포 데이터, 참고 - https://www.slideshare.net/JinSolKim2/cloud-pak-for-data-cp4d-ibm
+1) data collect : DB2, Data Virtualization 
+2) optimizing : Watson Knowledge Catalog 
+3) analysis : Watson Studio, Auto AI, Cognus 
+
+*  Data Virtualization 
+1) Cashing layer를 사용하며, 여기에서 query를 통해 테이블들을 전처리 하여 view table을 만드는 개념으로 이해된다. 
+2) No/Small coding을 지원하기 위해 GUI 방식으로 데이터 플로우를 구성하면서, virtualize node를 추가할 수 있다. 
+  : 테이블간 key값 매칭, 컬럼 필터링 및 변환 등을 쉽게 할수 있도록 지원함
+
 * MDM(Master Data Management)
 * IBM SVC - 스토리지 가상화 솔루션 SVC(SAN Volume Controller)
 * Helm은 Kubernetes 용 패키지 관리자 - Helm을 사용하여 사전 구성된 Kubernetes 리소스의 패키지 인 Kubernetes 차트를 구성하고 관리.   
 * Helm 참고 - https://www.ibm.com/cloud/architecture/content/course/helm-fundamentals/helm-def $ helm install <chart>
 * IBM클라우드에 VPN구성 - 참고 - https://cloud.ibm.com/docs/vpc?topic=vpc-vpn-onprem-example
+* IBM's BI solution : cognus analytics, Data source 지정, Chart 구성, Data filtering 등 대부분의 BI tools 기능 지원됨 
 
+* Data Catalog (in IBM Cloud pak for data) 
+1) intelligence maintenance 메뉴에서 데이터 자산에 대한 profile, 특정 object 검색, 연관된 데이터 및 object들과의 관계 파악을 쉽게 할 수 있다. 
+2) Rule builder 기능을 제공하며, 특정 data set 또는 사전 정의된 user group 별로 생성된 rule을 적용할 수 있다. 
+3) AI/ML 세션에서 pipeline 관리하던 방식과 동일하게, data asset 관리 또한 프로젝트 개념으로 이루어진다. 
+  : intelligence maintenance안에서 모든 dataset, connection, model, rule&policy, data flow(lineage)를 종합적으로 관리하는 개념 
 
 # talend
 * shell명령어 배치실행 - https://www.datalytyx.com/scheduling-talend-open-studio-jobs-in-linux-without-talend-administration-center-tac/
