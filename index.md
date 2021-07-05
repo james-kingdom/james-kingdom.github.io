@@ -4,7 +4,7 @@
 * python3.5에 NLTK 설치하기https://excelsior-cjh.tistory.com/62?category=928322
 * 단어/문장 추출 및 형태소 분석하여 명사 형용사 찾아 단어 빈도 등을 뽑고 wordcloud 표현
 * wordcloud 실습 https://knowable.tistory.com/5
-* 
+
 # KONLPY 코엔엘파이
 https://konlpy-ko.readthedocs.io/ko/v0.4.3/
 
