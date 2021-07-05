@@ -1,5 +1,6 @@
 # [editor on GitHub](https://github.com/james-kingdom/james-kingdom.github.io/edit/master/index.md)
-* 한국어 KONLPY, 영어 및 외국어 NLTK
+
+# NLP NLTK/KONLPY/WORDCLOUD 형태소분석기 자연어처리
 * python3.5에 NLTK 설치하기https://excelsior-cjh.tistory.com/62?category=928322
 * 단어/문장 추출 및 형태소 분석하여 명사 형용사 찾아 단어 빈도 등을 뽑고 wordcloud 표현
 * wordcloud 실습 https://knowable.tistory.com/5
