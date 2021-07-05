@@ -1,4 +1,12 @@
 # [editor on GitHub](https://github.com/james-kingdom/james-kingdom.github.io/edit/master/index.md)
+* 한국어 KONLPY, 영어 및 외국어 NLTK
+* python3.5에 NLTK 설치하기https://excelsior-cjh.tistory.com/62?category=928322
+* 단어/문장 추출 및 형태소 분석하여 명사 형용사 찾아 단어 빈도 등을 뽑고 wordcloud 표현
+* wordcloud 실습 https://knowable.tistory.com/5
+* 
+# KONLPY 코엔엘파이
+https://konlpy-ko.readthedocs.io/ko/v0.4.3/
+
 
 # IBM 클라우드
 * Cloud Pak for Data (CP4D) IBM 클라우드 팩 포 데이터, 참고 - https://www.slideshare.net/JinSolKim2/cloud-pak-for-data-cp4d-ibm
@@ -545,9 +553,6 @@ https://superkong1.tistory.com/41
 * app = Flask(__name__) @app.route('/') def index(): return render_template('index.html')
 * 파이선으로 간단히 서버 구동시 python -m http.server 8080
 
-
-# KONLPY 코엔엘파이
-https://konlpy-ko.readthedocs.io/ko/v0.4.3/
 
 #  ECMAScript 6(ES6) - 
 * 출처 https://jsdev.kr/t/es6/2944 
